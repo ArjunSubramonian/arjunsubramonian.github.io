@@ -17,6 +17,17 @@
         <link rel="stylesheet" href="./css/hugo-academic.css" />
         <link rel="icon" type="image/png" href="./img/icon.png" />
         <link rel="apple-touch-icon" type="image/png" href="./img/apple-touch-icon.png" />
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178383532-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-178383532-1');
+        </script>
+
         <title>Arjun Subramonian's Website</title>
     </head>
 
@@ -40,6 +51,26 @@
                         <li class="nav-item">
                             <a href="#publications_selected" data-target="#publications_selected">
                                 <span>Publications</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#projects_selected" data-target="#projects_selected">
+                                <span>Projects</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#honors" data-target="#honors">
+                                <span>Honors</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#talks" data-target="#talks">
+                                <span>Talks</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#press" data-target="#press">
+                                <span>Press</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#jedi" data-target="#jedi">
+                                <span>JEDI</span></a>
                         </li>
                     </ul>
                 </div>
@@ -68,12 +99,21 @@
                                 &nbsp &nbsp
                                 <a href="https://twitter.com/arjunsub00"><i class="fa fa-twitter fa-2x"></i></a>
                             </p>
+                            <br />
+                            <p><a href="./pdf/Subramonian_Arjun_Resume.pdf">Resume (PDF)</a></p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-8" itemprop="description">
                         <h1 id="biography">Biography</h1>
-                        <p>I am currently a CS student at the University of Calofornia, Los Angeles (UCLA) performing research under the supervision of Prof. <a href="http://web.cs.ucla.edu/~yzsun/">Yizhou Sun</a> and Prof. <a href="http://web.cs.ucla.edu/~kwchang/">Kai-Wei Chang</a>. I am grateful to work closely with PhD students Shichang Zhang and <a href="https://acbull.github.io/">Ziniu Hu</a>.</p>
-                        <p>My research is broadly about graph representation learning, with a focus on self-supervised methods and fairness.</p>
+                        <p>👨🏾‍🎓 Hello! I am currently a CS student at the University of California, Los Angeles (UCLA) conducting <b><u>machine learning research</u></b> under the supervision of Prof. <a href="http://web.cs.ucla.edu/~yzsun/">Yizhou Sun</a> and Prof. <a href="http://web.cs.ucla.edu/~kwchang/">Kai-Wei Chang</a>. I am grateful to work closely with PhD students Shichang Zhang and <a href="https://acbull.github.io/">Ziniu Hu</a>.</p>
+                        
+                        <p>💻 My research is broadly about <b><u>graph representation learning</u></b>, with a focus on <u>self-supervised methods</u>, <u>substructures and semantics</u>, and <u>fairness in knowledge graphs</u>. I'm currently working on a self-supervised framework for pre-training graph neural networks that improves performance on downstream graph classification tasks when labeled data is scarce. I'm also researching and devising an adversarial framework for debiasing knowledge graph embeddings. Previously, I worked with the Heterogeneous Graph Transformer to efficiently embed web-scale knowledge graphs, like YAGO and DBpedia, for link prediction.</p>
+
+                        <p>📚 I enjoy reading, theorizing about, and exploring <b>graph semantics</b> through the lens of <b>substructures</b> and GNN <b>scalability</b>. I also read and discuss a lot about <b>bias in knowledge graph mining and representation learning</b> and modern deep learning-powered systems, and the representational and allocational harms they pose.</p>
+
+                        <p>🏳️‍🌈 I care deeply about the <a href="#jedi">inclusion</a> of LGBTQIA+ individuals and people with disabilities in AI research. In my free time, I hike, run, spend as much time with animals as possible, and am learning to play the ukulele!<p>
+
+                        <p>✉️ <b>Please reach out!</b> (Especially if you're looking for a community of queer and trans individuals in AI.) I'd be happy to talk and help out in any way I can 😊</p>
                     </div>
                     <div class="col-md-12">
                         <div class="col-sm-4">
@@ -85,6 +125,13 @@
                                         <p class="course">BS, Computer Science
                                             <br />Sept. 2018 -- Now</p>
                                         <p class="institution">University of California, Los Angeles</p></div>
+                                        <p class="description"><b><small>Select Coursework:</small></b><ul>
+                                          <li><small>Artificial Intelligence, Algorithms, Machine Learning, Deep Learning (Graduate)</small></li>
+                                          <li><small>Computer Vision, FATE in Natural Language Processing (Graduate), Data Mining, Reinforcement Learning (Graduate)</small></li>
+                                          <li><small>Linear Algebra, Optimization, Analysis</small></li>
+                                          <li><small>Quantum Programming (Graduate)</small></li>
+                                          <li><small>Data Structures, Operating Systems, Software Engineering</small></li>
+                                        </ul></p>
                                 </li>
                             </ul>
                         </div>
@@ -94,15 +141,31 @@
                                 <li>
                                     <p class="institution">Jun 2020 -- Sep 2020, Microsoft
                                         <br />
-                                        <small>Crafted a P2P-anonymous, secure backend technical design for a feature to combat harassment on Teams</small></p>
-                                        
+                                        <ul>
+                                        <li><small>Crafted a P2P-anonymous, secure backend technical design for a feature to report harassment on Teams</small></li>
+                                        <li><small>Authored an 8-page accessibility report with actionable insights to improve the feature for disabled individuals</small></li></ul></p>
                                 </li>
                                 <li>
-                                    <p class="institution">Jun 2020 -- Sep 2020, Heal
+                                    <p class="institution">Jun 2019 -- Sep 2019, Heal
                                         <br />
-                                        <small>Adapted automated routing algorithm to optimally schedule telemedicine visits</small></p>
+                                        <ul>
+                                        <li><small>Improved existing and designed new algorithms for automated routing in Python, which greatly increased the number of patients seen by doctors each day</small></li>
+                                        <li><small>Adapted automated routing algorithm to optimally schedule telemedicine visits, which greatly benefits patients during the COVID-19 pandemic</small></li></ul></p>
+                                </li>
+                                <li>
+                                    <p class="institution">Nov 2018 -- Oct 2019, Sike AI
+                                      <br />
+                                      <ul>
+                                      <li><small>Designed and implemented in-house model for personality trait-extraction from video with TensorFlow</small></li></ul></p>
                                 </li>
                             </ul>
+                            <h3>Skills</h3>
+                            <p class="institution">
+                              <ul>
+                                <li><small>Python, PyTorch, PyTorch Geometric, Keras, TensorFlow, AWS, Azure</small></li>
+                                <li><small>Java, git, shell scripting, C++, C, Typescript, React, SQL, MongoDB</small></li>
+                                <li><small>Qiskit, Q#, PyQuil</small></li>
+                              </ul></p>
                         </div>
                     </div>
                 </div>
@@ -121,7 +184,7 @@
                                 <div class="col-md-12">
                                     <h5 class="article-title" itemprop="name">Automated, Cost-Effective Optical System for Accelerated Antimicrobial Susceptibility Testing (AST) Using Deep Learning</h5>
                                     <div class="pub-authors" itemprop="author">
-                                        Calvin Brown, Derek Tseng, Paige M. K. Larkin, Susan Realegeno, Leanne Mortimer, <u><b>Arjun Subramonian</b></u>, Dino Di Carlo, Omai B. Garner, and Aydogan Ozcan*
+                                        Calvin Brown, Derek Tseng, Paige M. K. Larkin, Susan Realegeno, Leanne Mortimer, <u><b>Arjun Subramonian</b></u>, Dino Di Carlo, Omai B. Garner, and Aydogan Ozcan
                                         <a class="btn btn-primary btn-outline btn-xs" href="https://pubs.acs.org/doi/abs/10.1021/acsphotonics.0c00841">PDF</a>
                                 <div class="pub-publication">ACS Photonics</div></div>
                                 <div class="col-md-3" style="top:20px">
@@ -130,11 +193,188 @@
                                     <div class="pub-abstract" itemprop="text">We demonstrate an automated, cost-effective optical system that delivers early AST results, minimizing incubation time and eliminating human errors, while remaining compatible with standard phenotypic assay workflow. The system is composed of cost-effective components and eliminates the need for optomechanical scanning. A neural network processes the captured optical intensity information from an array of fiber optic cables to determine whether bacterial growth has occurred in each well of a 96-well microplate. </div></div>
                             </div>
                         </div>
+
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">Estimating the Ages of FGK Dwarf Stars Through the Use of GALEX FUV Magnitudes</h5>
+                                    <div class="pub-authors" itemprop="author">
+                                        Sara Crandall, Graeme Smith, <u><b>Arjun Subramonian</b></u>, Kelly Ho, and Evelyn Cochrane
+                                        <a class="btn btn-primary btn-outline btn-xs" href="#comingsoon">PDF</a>
+                                <div class="pub-publication">The Astronomical Journal</div></div>
+                                <!-- div class="col-md-3" style="top:20px">
+                                    <img src="" alt="Coming soon!" class="pub-banner" itemprop="image" /></div-->
+                                <div class="col-md-8" style="top:10px">
+                                    <div class="pub-abstract" itemprop="text">Manuscript has been accepted, links to abstract and paper coming soon!</div></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         
+        <section id="projects_selected" class="home-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 section-heading">
+                        <h1>Selected Projects</h1></div>
+                    <div class="col-xs-12">
+                        <hr style="filter:alpha(opacity=100,finishopacity=0,style=2);background-color:#D8D8D8;height:3px" />
+
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">Robust Model-Agnostic Meta-Learning for Binary Content Moderation Tasks in Natural Language Processing</h5>
+                                    <div class="pub-authors" itemprop="author">
+                                        <b><u>Arjun Subramonian</u>*</b> and John Dang*
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://docs.google.com/document/d/1Hpeohwat1lO_vhfbXhj8DyM-oSnHfLwY_4dQ0NEpmmk/edit?usp=sharing">PDF</a>
+                                <div class="pub-publication">COM SCI 269 (FATE in NLP)</div></div>
+                                <div class="col-md-3" style="top:20px">
+                                    <img src="./img/roberta.png" class="pub-banner" itemprop="image" /></div>
+                                <div class="col-md-8" style="top:10px">
+                                    <div class="pub-abstract" itemprop="text">Content moderation makes the Internet more welcoming. We investigate applying MAML to boost performance on binary content moderation tasks in low-resource contexts. We used the MAML algorithm, implemented in PyTorch, to pre-train a model whose internal representation is amenable to a variety of content moderation tasks with minimal finetuning. Our distribution of content moderation tasks comprised 8 tasks, including sentiment analysis and insincere question detection, each with a separate dataset. We compared the ability of this model pre-trained with MAML to adapt to perform well on unseen binary content moderation tasks to that of a model pre-trained using traditional transfer learning approaches and a model trained from scratch. Empirically, we found that MAML did not noticeably improve adaptation performance. However, we hope that, with additional improvements to MAML and fewer computational limits, MAML can be applied to train robust and adaptive large-scale content moderation systems in low-resource contexts. Our code can be found <a href="https://github.com/jamqd/Content_Moderation_MAML">here</a>.</div></div>
+                            </div>
+                        </div>
+
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">On the Complexity and Convergence of Approximate Policy Iteration Schemes</h5>
+                                    <div class="pub-authors" itemprop="author">
+                                        <b><u>Arjun Subramonian</u>*</b>, Shree Kesava Narayan Prasanna*, Nikil Roashan Selvam*, and Justin Yi*
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://drive.google.com/file/d/1-_jVzOJbdndYlt7gpsdnLqA28hgmdZOs/view">PDF</a>
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://drive.google.com/file/d/1MMqSMY7zz4I6NEzX-41nzv3Pq9vX_Uq6/view?usp=sharing">Poster</a>
+                                <div class="pub-publication">EC ENGR 239AS (Reinforcement Learning)</div></div>
+                                <div class="col-md-3" style="top:20px">
+                                    <img src="./img/API.png" class="pub-banner" itemprop="image" /></div>
+                                <div class="col-md-8" style="top:10px">
+                                    <div class="pub-abstract" itemprop="text">Policy iteration (PI) is a popular method of converging upon an optimal policy in a Markov Decision Process. More specifically, we consider performing policy iteration with some bounded error at each step. This leads to the class of Approximate Policy Iteration Algorithms. In this project, we survey relevant literature in approximate policy iteration, and provide theoretical proof sketches involved in the analysis of the complexity bounds, convergence guarantees, and rates of convergence for various approximate policy iteration algorithms. We conclude with promising future directions of research in analyzing the performance of approximate policy iteration schemes.</div></div>
+                            </div>
+                        </div>
+
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">Model-Agnostic Meta-Learning for a Policy Gradient Approach to MuJoCo Continuous Control Tasks</h5>
+                                    <div class="pub-authors" itemprop="author">
+                                        <b><u>Arjun Subramonian</u>*</b> and John Dang*
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://drive.google.com/file/d/1HyaoPdtafhoooSuinJ_zACqFaoxWcbI8/view">PDF</a>
+                                <div class="pub-publication">EC ENGR C147 (Neural Networks and Deep Learning)</div></div>
+                                <div class="col-md-3" style="top:20px">
+                                    <img src="./img/mujoco.png" class="pub-banner" itemprop="image" /></div>
+                                <div class="col-md-8" style="top:10px">
+                                    <div class="pub-abstract" itemprop="text">Transferring knowledge from previous experiences to new, unseen tasks is a hallmark of human intelligence. Machine learning systems should exploit previous experiences to expedite learning. This has been accomplished in fields such as computer vision, where pre-training on a large dataset such as ImageNet can provide good initial weights for related downstream tasks. This method has struggled to achieve similar success in deep reinforcement learning (RL) tasks, where using it can even result in worse performance than training from scratch (i.e negative transfer). Hence, this paper investigates the adaptive power of Model Agnostic Meta-Learning (MAML), a method that directly optimizes for fast adaptation to new tasks, on a policy gradient approach to MuJoCo continuous control tasks. While our experiments show mixed results for the efficacy of MAML on pre-training an adaptive policy network, with a more complex task distribution and fewer computational restrictions, MAML may have the potential to outperform the traditional pre-training approach in deep RL.</div></div>
+                            </div>
+                        </div>
+
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">MovieLens Recommender System</h5>
+                                    <div class="pub-authors" itemprop="author">
+                                        <b><u>Arjun Subramonian</u>*</b>, Amit Mondal*, Bryan Chiang*, and John Dang*
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://docs.google.com/document/d/1cFPNT7Mjd-RNybn4RPtDqJGxJJuMIDfm5CHRD63kBMA/edit?usp=sharing">PDF</a>
+                                <div class="pub-publication">COM SCI 145 (Data Mining)</div></div>
+                                <div class="col-md-3" style="top:20px">
+                                    <img src="./img/movielens.png" class="pub-banner" itemprop="image" /></div>
+                                <div class="col-md-8" style="top:10px">
+                                    <div class="pub-abstract" itemprop="text">Recommender systems are highly prevalent in e-commerce nowadays. For this project, we have a training set, constructed based on the MovieLens dataset, consisting of ~12M binary ratings consisting of user-movie-rating triples. For each movie, we have the title and genres. The goal of this project is to create a recommender system to predict the binary rating for ~4M unseen UserId-MovieId pairs in the testing set. There are generally two approaches to recommender systems: content-based and collaborative-based filtering. Content-based filtering recommends items to a user that are similar to items they have previously rated highly. In contrast, collaborative-based filtering operates on the assumption that users who have shared similar movie preferences in the past will continue to share common preferences into the future. We surveyed the performance of content-based (e.g. TF-IDF, genre-based decision tree, etc.) and collaborative filtering (e.g. SVM, SVD, element-wise matrix factorization, tabular matrix factorization, hybrid matrix factorization, etc.) methods on predicting binary ratings for each user for movies in the MovieLens testing dataset. <b>We achieved the third highest ROC-AUC on the test set in our data mining class.</b></div></div>
+                            </div>
+
+                            <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">Quantum Programming Algorithms</h5>
+                                    <div class="pub-authors" itemprop="author">
+                                        <b><u>Arjun Subramonian</u>*</b>, Vaishnavi Tipireddy, and Siddarth Chalasani
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/ArjunSubramonian/Quantum-Algorithms/">Github</a>
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/ArjunSubramonian/Quantum-Algorithms/blob/master/PyQuil/CS%20239%20PyQuil%20Project.pdf">PyQuil</a>
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/ArjunSubramonian/Quantum-Algorithms/blob/master/Qiskit/CS239%20Qiskit%20Project.pdf">Qiskit</a>
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/ArjunSubramonian/Quantum-Algorithms/blob/master/Qiskit-IBMQX/Run%20on%20Quantum%20Computer%20Report.pdf">IBMQX</a>
+                                <div class="pub-publication">COM SCI 239 (Quantum Programming)</div></div>
+                                <div class="col-md-3" style="top:20px">
+                                    <img src="./img/quantum.png" class="pub-banner" itemprop="image" /></div>
+                                <div class="col-md-8" style="top:10px">
+                                    <div class="pub-abstract" itemprop="text">We implemented Deutsch-Jozsa, Bernstein-Vazirani, Grover's algorithm, and Simon's algorithm using PyQuil and Qiskit. We then evaluated the implementations and modern quantum compile and runtime capabilities using the Rigetti and IBM quantum simulators and IBMQX quantum devices. We subsequently detailed our implementations, designs, and compile and runtime analyses in three in-depth reports.</div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="honors" class="home-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 section-heading">
+                        <h1>Honors</h1></div>
+                    <div class="col-xs-12">
+                        <hr style="filter:alpha(opacity=100,finishopacity=0,style=2);background-color:#D8D8D8;height:3px" />
+                    <ul>
+                      <li>IBM Quantum Challenge (2020)</li>
+                      <li>O4U Tech Conference 2020 Attendee (2020)</li>
+                      <li>Google Queer Tech Voices Attendee (2020)</li>
+                      <li>3rd Place Award for Best Hack @ Rose Hack, Major League Hacking (2019)</li>
+                      <li>Siemens Competition Regional Finalist (2017)</li>
+                      <li>Award of Achievement, Association for Computing Machinery, San Francisco Bay Area Professional Chapter (2016)</li>
+                      <li>Dean's Honors List (2020)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+          <section id="talks" class="home-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 section-heading">
+                        <h1>Talks</h1></div>
+                    <div class="col-xs-12">
+                        <hr style="filter:alpha(opacity=100,finishopacity=0,style=2);background-color:#D8D8D8;height:3px" />
+                    <ul>
+                      <li><a href="https://drive.google.com/file/d/16hHbm2dyNx-Okb7jAg2Wjx4XwLyYE2XM/view?usp=sharing">Fair Machine Learning</a> (adapted from Barocas and Hardt's 2017 NeurIPS talk), Microsoft Garage Brown-Bag (2020)</li>
+                      <li>"<a href="https://drive.google.com/file/d/1HGHthMgLvBjjYjHvxrOeoyS6Ir_yapMu/view?usp=sharing">MONET</a>: Debiasing Graph Embeddings via the Metadata-Orthogonal Training Unit", Microsoft Research Cambridge Paper Reading Group (2020)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+        <section id="press" class="home-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 section-heading">
+                        <h1>Press</h1></div>
+                    <div class="col-xs-12">
+                        <hr style="filter:alpha(opacity=100,finishopacity=0,style=2);background-color:#D8D8D8;height:3px" />
+                    <ul>
+                      <li>Equality in America Town Hall with Tom Steyer (<a href="https://www.cnn.com/videos/politics/2019/10/11/tom-steyer-lgbtq-rights-cnn-town-hall-vpx.cnn">CNN</a>, 2019)</li>
+                      <li>Washington, California Students Win Regional Siemens Competition at California Institute of Technology (<a href="https://citybizlist.com/article/452259/washington-california-students-win-regional-siemens-competition-at-california-institute-of-technology">citybizlist</a>, 2017)</li>
+                      <li>Indian American STEM Whiz Kids Named 2017 Siemens Regional Finalists (<a href="https://www.indiawest.com/news/global_indian/indian-american-stem-whiz-kids-named-2017-siemens-regional-finalists/article_75ed7a08-b8f5-11e7-9fa1-4bab05f3c3d3.html">IndiaWest</a>, 2017)</li>
+                      <li>Three MVHS students make it to semifinal round of Siemens competition (<a href="https://elestoque.org/2017/11/01/news/mvhs-students-semifinal-siemens-competition/">El Estoque</a>, 2017)</li>
+                      <li>Local Charity Map of Bay Area (<a href="https://www.arcgis.com/apps/MapJournal/index.html?appid=485756b0b7cd4a1f86e2ce5288cd9e8a#">ArcGIS</a>, 2016)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+        <section id="jedi" class="home-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 section-heading">
+                        <h1>Justice, Equity, Diversity, and Inclusion (JEDI) in AI</h1></div>
+                    <div class="col-xs-12">
+                        <hr style="filter:alpha(opacity=100,finishopacity=0,style=2);background-color:#D8D8D8;height:3px" />
+                    <div>
+                      <p>I am a fervent champion of justice, equity, diversity, and inclusion in AI research and beyond. I co-founded <a href="qwerhacks.github.io">QWER Hacks</a>, Major League Hacking's <a href="https://news.mlh.io/welcome-to-the-2021-hackathon-season!-07-01-2020">first-ever LGBTQIA event</a> and the first collegiate LGBTQIA hackathon in the nation, aiming to increase the visibility of and celebrate the queer and trans community in STEM, as well as engage and bring together queer and trans individuals and allies. I also lead <a href="https://teachla.uclaacm.com/reports/2019-2020-edi">JEDI initiatives</a> within ACM @ UCLA, employing actionable goalsetting and reflection to take concrete steps towards making the organization more inclusive of <b><u>everyone</u></b>. I created and produce the  <a href="anchor.fm/ucla-acm-ai">"You Belong in AI!"</a> podcast, which inspires youth and college students of all identities and backgrounds, especially those who are underrepresented, to pursue AI opportunities</p>
+
+                      <p>I strongly advocate to make an AI education acccessible to <b><u>everyone</u></b>. With the prevalence of AI in modern society and the harms it poses to already-marginalized communities, it is especially paramount that we empower individuals from these communities to have informed conversations about AI and fight against algorithmic injustices. As <a href="https://uclaacmai.github.io/outreach/">Outreach Director of ACM AI @ UCLA</a>, I co-founded, lead, and teach an <a href="https://teachla.uclaacm.com/classes/ml">AI & ML course</a> at North Hollywood High School (in Los Angeles) that emphasizes foundational concepts and fairness, ethics, accountability, and transparency in modern AI. Since my Outreach team and I unfortunately cannot teach at every school, we leverage educational technology to open-source our content in a fun, digestible manner; a prime example of this is through Teach LA @ ACM's online, interactive learning labs on topics like <a href="https://uclaacm.github.io/gradient-descent-visualiser/">gradient descent</a> and <a href="https://uclaacm.github.io/getting-mean-about-error/">mean-squared error</a>. </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </section>
         <br />
         <footer class="site-footer">
             <div class="container">
