@@ -75,23 +75,31 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li class="nav-item">
                             <a href="#about" data-target="#about">
-                                <span>Biography</span></a>
+                                <span>About</span></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#publications_selected" data-target="#publications_selected">
-                                <span>Publications</span></a>
+                            <a href="#conference_papers" data-target="#conference_papers">
+                                <span>Conference Papers</span></a>
                         </li>
-                        <!-- li class="nav-item">
-                            <a href="#projects_selected" data-target="#projects_selected">
-                                <span>Projects</span></a>
-                        </li -->
+                        <li class="nav-item">
+                            <a href="#workshop_papers" data-target="#workshop_papers">
+                                <span>Workshop Papers</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#preprints" data-target="#preprints">
+                                <span>Preprints</span></a>
+                        </li>
                         <li class="nav-item">
                             <a href="#honors" data-target="#honors">
                                 <span>Honors</span></a>
                         </li>
                         <li class="nav-item">
                             <a href="#talks" data-target="#talks">
-                                <span>Talks and Panels</span></a>
+                                <span>Talks</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#panels" data-target="#panels">
+                                <span>Panels</span></a>
                         </li>
                         <li class="nav-item">
                             <a href="#press" data-target="#press">
@@ -100,6 +108,10 @@
                         <li class="nav-item">
                             <a href="#service" data-target="#service">
                                 <span>Service</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#mentoring" data-target="#mentoring">
+                                <span>Mentoring</span></a>
                         </li>
                     </ul>
                 </div>
@@ -133,16 +145,11 @@
                             <p><a href="https://scholar.hasfailed.us/">Google Scholar has failed us.</a></p>
                             <!-- TODO: update CV -->
                             <p><a href="./pdf/Arjun_Subramonian_CV.pdf">CV (PDF)</a></p>
-                            <!-- p><a href="./pdf/Subramonian_Arjun_Resume.pdf">Resume (PDF)</a></p -->
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-8" itemprop="description">
-                        <h1 id="biography">Biography</h1>
-                        <p>👨🏾‍🎓 Hello! I am a Computer Science PhD student at UCLA conducting <b><u>machine learning research</u></b>, working with Prof. <a href="http://web.cs.ucla.edu/~yzsun/">Yizhou Sun</a> and Prof. <a href="http://web.cs.ucla.edu/~kwchang/">Kai-Wei Chang</a>.</p>
-                        
-                        <p>💻 My research focuses on inclusive <u>graph machine learning</u> and <u>natural language processing</u>, including <u>fairness</u>, <u>biases</u>, and <u>ethics</u>. <!--I'm currently working on a self-supervised framework for pre-training graph neural networks that improves performance on downstream graph classification tasks when labeled data is scarce. Previously, I worked with the Heterogeneous Graph Transformer to efficiently embed web-scale knowledge graphs, like YAGO and DBpedia, for link prediction.--> </p>
-
-                        <!-- <p>📚 I enjoy reading, theorizing about, and exploring <b>graph semantics</b> through the lens of <b>substructures</b> and GNN <b>scalability</b>. I also read and discuss a lot about <b>bias in graph mining and representation learning</b> and modern deep learning-powered systems, and the representational and allocational harms they pose.</p> -->
+                        <h1 id="about">About</h1>
+                        <p>👨🏾‍🎓 Hello! I am a Computer Science PhD student at UCLA with Prof. <a href="http://web.cs.ucla.edu/~yzsun/">Yizhou Sun</a> and Prof. <a href="http://web.cs.ucla.edu/~kwchang/">Kai-Wei Chang</a>. My research focuses on inclusive <u>graph machine learning</u> and <u>natural language processing</u>, including <u>fairness</u>, <u>justice</u>, and <u>ethics</u>.
 
                         <p>🏳️‍🌈 I care deeply about the <a href="#jedi">inclusion</a> of LGBTQIA+ individuals and disabled and neurodivergent folks in AI research. In my free time, I hike, run, spend as much time as possible with human and non-human animals alike, and play the ukulele!<p>
 
@@ -161,14 +168,6 @@
                                         <p class="course">BS, Computer Science, Summa Cum Laude
                                             <br />Sept. 2018 -- Mar. 2021</p>
                                         <p class="institution">University of California, Los Angeles</p></div>
-                                         <!-- p class="description"><b><small><a href="./pdf/transcript_blanked.pdf">Transcript</a></small></b></p -->
-                                        <!-- p class="description"><b><small>Selected Coursework:</small></b><ul>
-                                          <li><small>Artificial Intelligence, Machine Learning, Deep Learning (Graduate), Data Mining, Algorithms and Data Structures</small></li>
-                                          <li><small>Computer Vision, FATE in Natural Language Processing (Graduate), Reinforcement Learning (Graduate)</small></li>
-                                          <li><small>Linear Algebra, Probability Theory, Optimization, Analysis</small></li>
-                                          <li><small>Theoretical Computer Science, Quantum Programming (Graduate)</small></li>
-                                          <li><small>Operating Systems, Programming Languages, Computer Networks, Software Engineering</small></li>
-                                        </ul></p -->
                                 </li>
                             </ul>
                         </div>
@@ -177,95 +176,51 @@
                             <ul class="ul-interests">
                                 <li>
                                     <p class="institution">Nov 2019 -- Present, UCLA Scalable Analytics Institute, Researcher
-                                    <!-- br />
-                                    <ul>
-                                        <li><small>Researching how to improve the performance and expressiveness of graph Transformer models</small></li -->
-                                        <!-- li><small>Devising an adversarial, self-supervised, training-time <a href="https://www.overleaf.com/read/kxqqmbkqtrkq">framework for learning fair node embeddings without demographics</a></small></li -->
-                                    <!-- /ul --></p>
+                                   </p>
                                 </li>
                                 <li>
                                     <p class="institution">Jul 2020 -- Present, UCLA NLP, Researcher
-                                    <!-- br />
-                                    <ul>
-                                        <li><small>Researching the harms and challenges associated with treatment of non-binary genders in language technologies</small></li -->
-                                        <!-- <li><small>Theoretically analyzing bias amplification in message-passing networks (e.g. GCN) for node classification when the minority-class nodes are outliers in terms of connectivity</small></li> -->
-                                        <!-- li><small>Devising an adversarial, self-supervised, training-time <a href="https://www.overleaf.com/read/kxqqmbkqtrkq">framework for learning fair node embeddings without demographics</a></small></li -->
-                                    <!-- /ul --></p>
+                                    </p>
                                 </li>
                                 <li>
-                                    <p class="institution">August 2022 -- November 2022, FAIR Society and Responsible AI, Research Intern
-                                    <br />
-                                    <ul>
-                                        <li><small>Examined how "expressive power" in graph learning is conceptualized and operationalized</small></li>
-                                    </ul>
+                                    <p class="institution">August 2022 -- November 2022, Meta Society and Responsible AI, Research Intern
                                     </p>
                                 </li>
                                 <li>
                                     <p class="institution">May 2022 -- August 2022, Microsoft Research FATE, Research Intern
-                                    <br />
-                                    <ul>
-                                        <li><small>Examined how NLP tasks are conceptualized and operationalized</small></li>
-                                    </ul>
                                     </p>
                                 </li>
                                 <li>
-                                    <p class="institution">Jun 2021 -- Sep 2021, Snap, Inc., Privacy Engineering Intern
-                                    <br />
+                                    <p class="institution">Jun 2021 -- Sep 2021, Snap, Inc., Privacy Research Intern
+                                    <!-- <br />
                                     <ul>
                                         <li><small>Developed algorithms to improve safety of friend suggestions for underage users on Snapchat while preserving privacy of all users</small></li>
                                         <li><small>Contributed to development of Snap's Responsible AI principles</small></li>
-                                        <li><small>Machine learning for ads and monetization</small></li>
-                                    </ul></p>
+                                    </ul> -->
+                                </p>
                                 </li>
                                 <li>
                                     <p class="institution">Mar 2021 -- Jun 2021, Allen Institute for Artificial Intelligence, AllenNLP, Research Engineering Intern
-                                    <br />
-                                    <ul>
-                                        <li><small>Developed <a href="https://github.com/allenai/allennlp/tree/main/allennlp/fairness">AllenNLP's fairness library</a>, which makes fairness metrics, training-time fairness algorithms, bias mitigation algorithms, and bias metrics accessible to researchers and practitioners of all levels</small></li>
-                                        <li><small>Wrote a <a href="https://guide.allennlp.org/fairness">guide chapter</a>, <a href="http://docs.allennlp.org/main/api/fairness/adversarial_bias_mitigator/">documentation</a>, and a <a href="https://medium.com/ai2-blog/an-introduction-to-fairness-and-bias-mitigation-with-allennlp-d1b478d44d4c">blog post</a> to communicate my work and make usage of the fairness library accessible</small></li>
-                                    </ul></p>
+                                    </p>
                                 </li>
                                 <li>
-                                    <p class="institution">Jun 2020 -- Sep 2020, Microsoft Corporation, Software Engineering Intern
-                                        <br />
-                                        <ul>
-                                        <li><small>Crafted a peer-to-peer-anonymous, secure backend technical design for a feature to report harassment on Microsoft Teams</small></li>
-                                        <li><small>Authored an 8-page accessibility report with actionable insights to improve the feature for individuals with disabilities</small></li>
-                                        <li><small>Developed a two-player card game to teach youth about quantum gates using Python and Q# (featured on <a href="https://devblogs.microsoft.com/qsharp/q-advent-calendar-2020/">Microsoft's Q# Advent Calendar 2020</a>)</small></li></ul></p>
+                                    <p class="institution">Jun 2020 -- Sep 2020, Microsoft Corporation, Software Engineering Intern</p>
                                 </li>
                                 <li>
-                                    <p class="institution">Jun 2019 -- Sep 2019, Get Heal, Inc., Software Engineering Intern
-                                        <br />
-                                        <ul>
-                                        <li><small>Engineered full-stack integrations of mechanisms used every day at Heal that enhance the automated routing of medical providers, like automated triaging, doctor-assistant match prevention, and phone number verification</small></li>
-                                        <li><small>Adapted automated routing algorithm to optimally schedule telemedicine visits, which greatly benefits patients during the COVID-19 pandemic</small></li></ul></p>
-                                </li>
-                                <li>
-                                    <p class="institution">Nov 2018 -- Oct 2019, Sike AI, Deep Learning Researcher
-                                      <br />
-                                      <ul>
-                                      <li><small>Designed, implemented, and trained in-house model for working style-analysis from video with TensorFlow</small></li></ul></p>
+                                    <p class="institution">Jun 2019 -- Sep 2019, Get Heal, Inc., Software Engineering Intern</p>
                                 </li>
                             </ul>
-                            <h3>Skills</h3>
-                            <p class="institution">
-                              <ul>
-                                <li><small>Python, PyTorch, PyTorch Geometric, Keras, TensorFlow, AWS, Azure</small></li>
-                                <li><small>Java, git, shell scripting, C++, C, Typescript, React, SQL, MongoDB</small></li>
-                                <li><small>Qiskit, Q#, PyQuil</small></li>
-                                <li><small>LaTeX</small></li>
-                              </ul></p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- TODO: update all publication information -->
-        <section id="publications_selected" class="home-section">
+        
+        <section id="conference_papers" class="home-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-md-6 section-heading">
-                        <h1>Selected Publications</h1></div>
+                    <div class="col-xs-12 section-heading">
+                        <h1>Conference and Journal Papers</h1></div>
                     <div class="col-xs-12">
                         <hr style="filter:alpha(opacity=100,finishopacity=0,style=2);background-color:#D8D8D8;height:3px" />
 
@@ -277,13 +232,34 @@
                                     </h5>
                                     <div class="pub-authors" itemprop="author">
                                         Anaelia Ovalle, <b><u>Arjun Subramonian</u></b>, Vagrant Gautam, Gilbert Gee, Kai-Wei Chang
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2303.17555">PDF</a>
-                                    <!-- div class="pub-publication"> [INSERT VENUE] </div --></div>
-                                <div class="col-md-3" style="top:20px">
-                                    <img src="./img/intersectionality.png" class="pub-banner" itemprop="image" /></div>
-                                <div class="col-md-8" style="top:10px">
-                                    <div class="pub-abstract" itemprop="text">We argue that adopting intersectionality as an analytical framework is pivotal to effectively operationalizing AI fairness. Through a critical review of how intersectionality is discussed in 30 papers from the AI fairness literature, we deductively and inductively: 1) map how intersectionality tenets operate within the AI fairness paradigm and 2) uncover gaps between the conceptualization and operationalization of intersectionality. We: 3) outline and assess the implications of these gaps for critical inquiry and praxis, and 4) provide actionable recommendations for AI fairness researchers to engage with intersectionality in their work by grounding it in AI epistemology.</div>
-                                </div>
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2303.17555">arXiv</a>
+                                    <div class="pub-publication">AIES 2023 (28.9% acceptance rate)</div></div>
+                            </div>
+                        </div>
+
+                        <!-- TODO: update venue, PDF link, and abstract-->
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">Ethical Unaffordances: Collaboratively Developing Evaluation Frameworks for Queer AI Harms
+                                    </h5>
+                                    <div class="pub-authors" itemprop="author">
+                                        Organizers Of QueerInAI, Nathan Dennler, Anaelia Ovalle, Ashwin Singh, Luca Soldaini, <b><u>Arjun Subramonian</u></b>, Huy Tu, William Agnew
+                                        <a class="btn btn-primary btn-outline btn-xs" href="">Coming soon!</a>
+                                    <div class="pub-publication">AIES 2023 (28.9% acceptance rate)</div></div>
+                            </div>
+                        </div>
+
+                        <!-- TODO: update venue, PDF link, acceptance rate, and abstract-->
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">It Takes Two to Tango: Navigating Conceptualizations of NLP Tasks and Measurements of Performance Thereon
+                                    </h5>
+                                    <div class="pub-authors" itemprop="author">
+                                        <b><u>Arjun Subramonian</u></b>, Xingdi Yuan, Hal Daumé III, Su Lin Blodgett
+                                        <a class="btn btn-primary btn-outline btn-xs" href="">Coming soon!</a>
+                                    <div class="pub-publication">Findings of ACL 2023</div></div>
                             </div>
                         </div>
 
@@ -294,13 +270,8 @@
                                     <h5 class="article-title" itemprop="name">Queer In AI: A Case Study in Community-Led Participatory AI</h5>
                                     <div class="pub-authors" itemprop="author">
                                         Organizers of QueerInAI, Anaelia Ovalle, <b><u>Arjun Subramonian</u></b>, ...
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2303.16972">PDF</a>
-                                    <!-- div class="pub-publication"> [INSERT VENUE] </div --></div>
-                                <div class="col-md-3" style="top:20px">
-                                    <img src="https://images.squarespace-cdn.com/content/v1/628d3c30b420d16dfbab5863/71dc2680-e69b-4323-84a3-3f62e92f0544/apple-touch-icon-removebg-preview.png" class="pub-banner" itemprop="image" /></div>
-                                <div class="col-md-8" style="top:10px">
-                                    <div class="pub-abstract" itemprop="text">We present Queer in AI as a case study for community-led participatory design in AI. We examine how participatory design and intersectional tenets started and shaped this community's programs over the years. We discuss different challenges that emerged in the process, look at ways this organization has fallen short of operationalizing participatory and intersectional principles, and then assess the organization's impact. Queer in AI provides important lessons and insights for practitioners and theorists of participatory methods broadly through its rejection of hierarchy in favor of decentralization, success at building aid and programs by and for the queer community, and effort to change actors and institutions outside of the queer community.</div>
-                                </div>
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2303.16972">arXiv</a>
+                                    <div class="pub-publication">FAccT 2023 (24.5% acceptance rate)</div></div>
                             </div>
                         </div>
 
@@ -310,160 +281,9 @@
                                     <h5 class="article-title" itemprop="name">On the Discrimination Risk of Mean Aggregation Feature Imputation in Graphs</h5>
                                     <div class="pub-authors" itemprop="author">
                                         <b><u>Arjun Subramonian</u></b>, Kai-Wei Chang, Yizhou Sun
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://neurips.cc/virtual/2022/poster/53849">PDF/Video/Poster</a>
-                                    <div class="pub-publication">NeurIPS 2022</div></div>
-                                <div class="col-md-3" style="top:20px">
-                                    <img src="./img/discrimination_risk.png" class="pub-banner" itemprop="image" /></div>
-                                <div class="col-md-8" style="top:10px">
-                                    <div class="pub-abstract" itemprop="text">In human networks, nodes belonging to a marginalized group often have a disproportionate rate of unknown or missing features. This, in conjunction with graph structure and known feature biases, can cause graph feature imputation algorithms to predict values for unknown features that make the marginalized group's feature values more distinct from the the dominant group's feature values than they are in reality. We call this distinction the discrimination risk. We prove that a higher discrimination risk can amplify the unfairness of a machine learning model applied to the imputed data. We then formalize a general graph feature imputation framework called mean aggregation imputation and theoretically and empirically characterize graphs in which applying this framework can yield feature values with a high discrimination risk. We propose a simple algorithm to ensure mean aggregation-imputed features provably have a low discrimination risk, while minimally sacrificing reconstruction error (with respect to the imputation objective). We evaluate the fairness and accuracy of our solution on synthetic and real-world credit networks.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h5 class="article-title" itemprop="name">Group Excess Risk Bound of Overparameterized Linear Regression with Constant-Stepsize SGD</h5>
-                                    <div class="pub-authors" itemprop="author">
-                                        <b><u>Arjun Subramonian</u></b>, Levent Sagun, Kai-Wei Chang, Yizhou Sun
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://neurips.cc/virtual/2022/workshop/49959#wse-detail-61593">PDF/Video/Poster</a>
-                                    <div class="pub-publication">Trustworthy and Socially Responsible Machine Learning @ NeurIPS 2022</div></div>
-                                <div class="col-md-3" style="top:20px">
-                                    <img src="./img/group_excess_risk.png" class="pub-banner" itemprop="image" /></div>
-                                <div class="col-md-8" style="top:10px">
-                                    <div class="pub-abstract" itemprop="text">It has been observed that machine learning models trained using stochastic gradient descent (SGD) exhibit poor generalization to certain groups within and outside the population from which training instances are sampled. This has serious ramifications for the fairness, privacy, robustness, and out-of-distribution (OOD) generalization of machine learning. Hence, we theoretically characterize the inherent generalization of SGD-learned overparameterized linear regression to intra- and extra-population groups. We do this by proving an excess risk bound for an arbitrary group in terms of the full eigenspectra of the data covariance matrices of the group and population. We additionally provide a novel interpretation of the bound in terms of how the group and population data distributions differ and the group effective dimension of SGD, as well as connect these factors to real-world challenges in practicing trustworthy machine learning. We further empirically study our bound on simulated data.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h5 class="article-title" itemprop="name">You Reap What You Sow: On the Challenges of Bias Evaluation Under Multilingual Settings</h5>
-                                    <div class="pub-authors" itemprop="author">
-                                        Zeerak Talat, Aurélie Névéol, Stella Biderman*, Miruna Clinciu*, Manan Dey*, Shayne Longpre*, Alexandra Sasha Luccioni*, Maraim Masoud*, Margaret Mitchell*, Dragomir Radev*, Shanya Sharma*, <b><u>Arjun Subramonian</u>*</b>, Jaesung Tae*, Samson Tan*, Deepak Tunuguntla*, Oskar van der Wal*
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://openreview.net/forum?id=rK-7NhfSIW5">PDF</a>
-                                    <div class="pub-publication">Challenges & Perspectives in Creating Large Language Models @ ACL 2022</div></div>
-                                <div class="col-md-3" style="top:20px">
-                                    <img src="./img/llm_bias_eval.png" class="pub-banner" itemprop="image" /></div>
-                                <div class="col-md-8" style="top:10px">
-                                    <div class="pub-abstract" itemprop="text">Evaluating bias, fairness, and social impact in monolingual language models is a difficult task. This challenge is further compounded when language modeling occurs in a multilingual context. Considering the implication of evaluation biases for large multilingual language models, we situate the discussion of bias evaluation within a wider context of social scientific research with computational work. We highlight three dimensions of developing multilingual bias evaluation frameworks: (1) increasing transparency through documentation, (2) expanding targets of bias beyond gender, and (3) addressing cultural differences that exist between languages. We further discuss the power dynamics and consequences of training large language models and recommend that researchers remain cognizant of the ramifications of developing such technologies.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h5 class="article-title" itemprop="name">On Dyadic Fairness: Exploring and Mitigating Bias in Graph Connections</h5>
-                                    <div class="pub-authors" itemprop="author">
-                                        <b><u>Arjun Subramonian</u></b>
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://iclr-blog-track.github.io/2022/03/25/dyadic-fairness/">URL</a>
-                                    <div class="pub-publication">ICLR 2022 Blogpost Track (32% acceptance rate)</div></div>
-                                <div class="col-md-3" style="top:20px">
-                                    <img src="./img/types_of_links.png" class="pub-banner" itemprop="image" /></div>
-                                <div class="col-md-8" style="top:10px">
-                                    <div class="pub-abstract" itemprop="text">This blog post discusses the ICLR 2021 paper "On Dyadic Fairness: Exploring and Mitigating Bias in Graph Connections" by Li et al., highlighting the importance of its theoretical results while critically examining the notions and applications of dyadic fairness provided.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h5 class="article-title" itemprop="name">Harms of Gender Exclusivity and Challenges in Non-Binary Representation in Language Technologies</h5>
-                                    <div class="pub-authors" itemprop="author">
-                                        Sunipa Dev, Masoud Monajatipoor*, Anaelia Ovalle*, <b><u>Arjun Subramonian</u>*</b>, Jeff M Phillips, Kai-Wei Chang
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2108.12084">PDF</a>
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://aclanthology.org/2021.emnlp-main.150/">ACL</a>
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://uclanlp.medium.com/harms-of-gender-exclusivity-and-challenges-in-non-binary-representation-in-language-technologies-5f89891b5aee">Blog Post</a>
-                                    <div class="pub-publication">EMNLP 2021 (Oral –– 9.8% acceptance rate), WiML Un-Workshop @ NeurIPS 2021</div></div>
-                                <div class="col-md-3" style="top:20px">
-                                    <img src="./img/nb-harms.png" class="pub-banner" itemprop="image" /></div>
-                                <div class="col-md-8" style="top:10px">
-                                    <div class="pub-abstract" itemprop="text">We explain the complexity of gender and language around it, and survey non-binary persons to understand harms associated with the treatment of gender as binary in English language technologies. We also detail how current language representations (e.g., GloVe, BERT) capture and perpetuate these harms and related challenges that need to be acknowledged and addressed for representations to equitably encode gender information.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h5 class="article-title" itemprop="name">Fairness and Bias Mitigation: A practical guide into the AllenNLP Fairness module</h5>
-                                    <div class="pub-authors" itemprop="author">
-                                        <u><b>Arjun Subramonian</b></u>
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://guide.allennlp.org/fairness">URL</a></div>
-                                <div class="col-md-3" style="top:20px">
-                                    <img src="./img/nli.png" class="pub-banner" itemprop="image" /></div>
-                                <div class="col-md-8" style="top:10px">
-                                    <div class="pub-abstract" itemprop="text">As models and datasets become increasingly large and complex, it is critical to evaluate the fairness of models according to multiple definitions of fairness and mitigate biases in learned representations. <code>allennlp.fairness</code> aims to make fairness metrics, fairness training tools, and bias mitigation algorithms extremely easy to use and accessible to researchers and practitioners of all levels.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h5 class="article-title" itemprop="name">Motif-Driven Contrastive Learning of Graph Representations</h5>
-                                    <div class="pub-authors" itemprop="author">
-                                        Shichang Zhang, Ziniu Hu, <u><b>Arjun Subramonian</b></u>, Yizhou Sun
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2012.12533">PDF</a>
-                                    <div class="pub-publication">SSL@WWW2021</div></div>
-                                <div class="col-md-3" style="top:20px">
-                                    <img src="./img/motif.png" class="pub-banner" itemprop="image" /></div>
-                                <div class="col-md-8" style="top:10px">
-                                    <div class="pub-abstract" itemprop="text">Our framework MotIf-driven Contrastive leaRning Of Graph representations (MICRO-Graph) can: 1) use GNNs to extract motifs from large graph datasets; 2) leverage learned motifs to sample informative subgraphs for contrastive learning of GNN.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h5 class="article-title" itemprop="name">MOTIF-Driven Contrastive Learning of Graph Representations</h5>
-                                    <div class="pub-authors" itemprop="author">
-                                        <u><b>Arjun Subramonian</b></u>
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://ojs.aaai.org/index.php/AAAI/article/view/17986">PDF</a>
-                                        <a class="btn btn-primary btn-outline btn-xs" href="./pdf/MOTIF-poster.pdf">Poster</a>
-                                <div class="pub-publication">Proceedings of the Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI 2021 Undergraduate Consortium)</div></div>
-                                <div class="col-md-3" style="top:20px">
-                                    <img src="./img/three_sampling.png" class="pub-banner" itemprop="image" /></div>
-                                <div class="col-md-8" style="top:10px">
-                                    <div class="pub-abstract" itemprop="text">We propose a MOTIF-driven contrastive framework to pretrain a graph neural network in a self-supervised manner so that it can automatically mine motifs from large graph datasets. Our framework achieves state-of-the-art results on various graph-level downstream tasks with few labels, like molecular property prediction.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h5 class="article-title" itemprop="name">Automated, Cost-Effective Optical System for Accelerated Antimicrobial Susceptibility Testing (AST) Using Deep Learning</h5>
-                                    <div class="pub-authors" itemprop="author">
-                                        Calvin Brown, Derek Tseng, Paige M. K. Larkin, Susan Realegeno, Leanne Mortimer, <u><b>Arjun Subramonian</b></u>, Dino Di Carlo, Omai B. Garner, and Aydogan Ozcan
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://pubs.acs.org/doi/abs/10.1021/acsphotonics.0c00841">PDF</a>
-                                <div class="pub-publication">ACS Photonics</div></div>
-                                <div class="col-md-3" style="top:20px">
-                                    <img src="./img/ast.gif" class="pub-banner" itemprop="image" /></div>
-                                <div class="col-md-8" style="top:10px">
-                                    <div class="pub-abstract" itemprop="text">We demonstrate an automated, cost-effective optical system that delivers early AST results, minimizing incubation time and eliminating human errors, while remaining compatible with standard phenotypic assay workflow. The system is composed of cost-effective components and eliminates the need for optomechanical scanning. A neural network processes the captured optical intensity information from an array of fiber optic cables to determine whether bacterial growth has occurred in each well of a 96-well microplate. </div></div>
-                            </div>
-                        </div>
-
-                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h5 class="article-title" itemprop="name">Estimating the Ages of FGK Dwarf Stars Through the Use of GALEX FUV Magnitudes</h5>
-                                    <div class="pub-authors" itemprop="author">
-                                        Sara Crandall, Graeme H. Smith, <u><b>Arjun Subramonian</b></u>, Kelly Ho, and Evelyn M. Cochrane
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://doi.org/10.3847/1538-3881/abb77d">PDF</a>
-                                <div class="pub-publication">The Astronomical Journal</div></div>
-                                <div class="col-md-3" style="top:20px">
-                                    <img src="./img/galex.jpg" class="pub-banner" itemprop="image" /></div>
-                                <div class="col-md-8" style="top:10px">
-                                    <div class="pub-abstract" itemprop="text">
-                                      We utilized far-ultraviolet (FUV) photometry acquired by the Galaxy Evolution Explorer (GALEX) space telescope as an indicator of chromospheric activity to infer ages of late-F, G, and K type dwarf stars. We derived a purely empirical correlation between FUV magnitudes and stellar age in conjunction with (B − V) color. Such a calibration has utility in population studies of FGK dwarfs for further understanding of the chemical evolution of the Milky Way.
-                                    </div>
-                                </div>
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/d4c2f25bf0c33065b7d4fb9be2a9add1-Abstract-Conference.html">URL</a>
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://neurips.cc/virtual/2022/poster/53849">Video/Poster</a>
+                                    <div class="pub-publication">NeurIPS 2022 (25.6% acceptance rate)</div></div>
                             </div>
                         </div>
 
@@ -475,28 +295,99 @@
                                         Organizers of QueerInAI, Hetvi Jethwani*, <b><u>Arjun Subramonian</u>*</b>, William Agnew*, MaryLena Bleile*, Sarthak Arora*, Maria Ryskina*, Jeffrey Xiong*
                                         <a class="btn btn-primary btn-outline btn-xs" href="https://dl.acm.org/doi/10.1145/3538543">URL</a>
                                 <div class="pub-publication">XRDS: Crossroads, The ACM Magazine for Students, Volume 28, Issue 4</div></div>
-                                <div class="col-md-3" style="top:20px">
-                                    <img src="https://images.squarespace-cdn.com/content/v1/628d3c30b420d16dfbab5863/71dc2680-e69b-4323-84a3-3f62e92f0544/apple-touch-icon-removebg-preview.png" class="pub-banner" itemprop="image" /></div>
-                                <div class="col-md-8" style="top:10px">
-                                    <div class="pub-abstract" itemprop="text">Queer in AI is an organization that aims to combat the harms faced by queer researchers within AI. Several inclusion initiatives are outlined, including those centered on policy and financial aid.</div>
-                                </div>
                             </div>
                         </div>
 
                         <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h5 class="article-title" itemprop="name">Rebuilding Trust: Queer in AI Approach to Artificial Intelligence Risk Management</h5>
+                                    <h5 class="article-title" itemprop="name">On Dyadic Fairness: Exploring and Mitigating Bias in Graph Connections</h5>
                                     <div class="pub-authors" itemprop="author">
-                                        Organizers of QueerInAI, Ashwin S*, William Agnew*, Hetvi Jethwani*, and <b><u>Arjun Subramonian</u>*</b>
-                                        <!-- TODO: add better link if one becomes available -->
-                                        <a class="btn btn-primary btn-outline btn-xs" href="http://queerinai.com/risk-management">URL</a>
-                                <div class="pub-publication">Queer in AI Workshop @ NeurIPS 2021</div></div>
-                                <div class="col-md-3" style="top:20px">
-                                    <img src="https://images.squarespace-cdn.com/content/v1/628d3c30b420d16dfbab5863/71dc2680-e69b-4323-84a3-3f62e92f0544/apple-touch-icon-removebg-preview.png" class="pub-banner" itemprop="image" /></div>
-                                <div class="col-md-8" style="top:10px">
-                                    <div class="pub-abstract" itemprop="text">We argue that any AI development, deployment, and monitoring framework that aspires to trust must incorporate both feminist, non-exploitative participatory design principles and strong, outside, and continual monitoring and testing. We additionally explain the importance of considering aspects of trustworthiness beyond just transparency, fairness, and accountability, specifically, to consider justice and shifting power to the disempowered as core values to any trustworthy AI system. Creating trustworthy AI starts by funding, supporting, and empowering grassroots organizations like Queer in AI so the field of AI has the diversity and inclusion to credibly and effectively develop trustworthy AI. We leverage the expert knowledge Queer in AI has developed through its years of work and advocacy to discuss if and how gender, sexuality, and other aspects of queer identity should be used in datasets and AI systems and how harms along these lines should be mitigated.</div>
-                                </div>
+                                        <b><u>Arjun Subramonian</u></b>
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://iclr-blog-track.github.io/2022/03/25/dyadic-fairness/">URL</a>
+                                    <div class="pub-publication">ICLR 2022 Blogpost Track (32% acceptance rate)</div></div>
+                            </div>
+                        </div>
+
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">Harms of Gender Exclusivity and Challenges in Non-Binary Representation in Language Technologies</h5>
+                                    <div class="pub-authors" itemprop="author">
+                                        Sunipa Dev, Masoud Monajatipoor*, Anaelia Ovalle*, <b><u>Arjun Subramonian</u>*</b>, Jeff M Phillips, Kai-Wei Chang
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://aclanthology.org/2021.emnlp-main.150/">URL</a>
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2108.12084">arXiv</a>
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://uclanlp.medium.com/harms-of-gender-exclusivity-and-challenges-in-non-binary-representation-in-language-technologies-5f89891b5aee">Blog Post</a>
+                                    <div class="pub-publication">EMNLP 2021 Oral (9.8% acceptance rate), WiML Un-Workshop @ NeurIPS 2021</div></div>
+                            </div>
+                        </div>
+
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">MOTIF-Driven Contrastive Learning of Graph Representations</h5>
+                                    <div class="pub-authors" itemprop="author">
+                                        <u><b>Arjun Subramonian</b></u>
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://ojs.aaai.org/index.php/AAAI/article/view/17986">URL</a>
+                                        <a class="btn btn-primary btn-outline btn-xs" href="./pdf/MOTIF-poster.pdf">Poster</a>
+                                <div class="pub-publication">AAAI 2021 Undergraduate Consortium (17% acceptance rate)</div></div>
+                            </div>
+                        </div>
+
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">Automated, Cost-Effective Optical System for Accelerated Antimicrobial Susceptibility Testing (AST) Using Deep Learning</h5>
+                                    <div class="pub-authors" itemprop="author">
+                                        Calvin Brown, Derek Tseng, Paige M. K. Larkin, Susan Realegeno, Leanne Mortimer, <u><b>Arjun Subramonian</b></u>, Dino Di Carlo, Omai B. Garner, and Aydogan Ozcan
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://pubs.acs.org/doi/abs/10.1021/acsphotonics.0c00841">URL</a>
+                                <div class="pub-publication">ACS Photonics</div></div>
+                            </div>
+                        </div>
+
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">Estimating the Ages of FGK Dwarf Stars Through the Use of GALEX FUV Magnitudes</h5>
+                                    <div class="pub-authors" itemprop="author">
+                                        Sara Crandall, Graeme H. Smith, <u><b>Arjun Subramonian</b></u>, Kelly Ho, and Evelyn M. Cochrane
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://doi.org/10.3847/1538-3881/abb77d">URL</a>
+                                <div class="pub-publication">The Astronomical Journal</div></div>            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="workshop_papers" class="home-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 section-heading">
+                        <h1>Workshop Papers</h1></div>
+                    <div class="col-xs-12">
+                        <hr style="filter:alpha(opacity=100,finishopacity=0,style=2);background-color:#D8D8D8;height:3px" />
+
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">Group Excess Risk Bound of Overparameterized Linear Regression with Constant-Stepsize SGD</h5>
+                                    <div class="pub-authors" itemprop="author">
+                                        <b><u>Arjun Subramonian</u></b>, Levent Sagun, Kai-Wei Chang, Yizhou Sun
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://openreview.net/forum?id=TRpJAAK3o0X">URL</a>
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://neurips.cc/virtual/2022/workshop/49959#wse-detail-61593">Video/Poster</a>
+                                    <div class="pub-publication">Trustworthy and Socially Responsible Machine Learning @ NeurIPS 2022</div></div>
+                            </div>
+                        </div>
+
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">You Reap What You Sow: On the Challenges of Bias Evaluation Under Multilingual Settings</h5>
+                                    <div class="pub-authors" itemprop="author">
+                                        Zeerak Talat, Aurélie Névéol, Stella Biderman*, Miruna Clinciu*, Manan Dey*, Shayne Longpre*, Alexandra Sasha Luccioni*, Maraim Masoud*, Margaret Mitchell*, Dragomir Radev*, Shanya Sharma*, <b><u>Arjun Subramonian</u>*</b>, Jaesung Tae*, Samson Tan*, Deepak Tunuguntla*, Oskar van der Wal*
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://openreview.net/forum?id=rK-7NhfSIW5">URL</a>
+                                    <div class="pub-publication">Challenges & Perspectives in Creating Large Language Models @ ACL 2022</div></div>
                             </div>
                         </div>
 
@@ -507,12 +398,18 @@
                                     <div class="pub-authors" itemprop="author">
                                         Organizers of QueerInAI, A Pranav, MaryLena Bleile, <u><b>Arjun Subramonian</u></b>, Luca Soldaini, Danica Sutherland, Sabine Weber, Pan Xu, William Agnew, Michael McKenna, and Nyx McLean
                                         <a class="btn btn-primary btn-outline btn-xs" href="https://www.queerinai.com/how-to-make-virtual-conferences-queer-friendly">URL</a>
-                                <div class="pub-publication">WiNLP Workshop @ EMNLP 2021</div></div>
-                                <div class="col-md-3" style="top:20px">
-                                    <img src="https://thereader.500queerscientists.com/content/images/2021/05/Logo_clear_back.png" class="pub-banner" itemprop="image" /></div>
-                                <div class="col-md-8" style="top:10px">
-                                    <div class="pub-abstract" itemprop="text">Queer in AI frequently gets inquires about making virtual conferences more inclusive from both conference organizers and queer community organizers. The purpose of this document is to provide a tutorial for D&I organizers on how to make virtual conferences queer friendly.</div>
-                                </div>
+                                <div class="pub-publication">Widening NLP Workshop @ EMNLP 2021</div></div>
+                            </div>
+                        </div>
+
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">Motif-Driven Contrastive Learning of Graph Representations</h5>
+                                    <div class="pub-authors" itemprop="author">
+                                        Shichang Zhang, Ziniu Hu, <u><b>Arjun Subramonian</b></u>, Yizhou Sun
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2012.12533">arXiv</a>
+                                    <div class="pub-publication">Self-Supervised Learning @ WWW 2021</div></div>
                             </div>
                         </div>
 
@@ -522,121 +419,51 @@
                                     <h5 class="article-title" itemprop="name">Queer | Inclusive | Badass</h5>
                                     <div class="pub-authors" itemprop="author">
                                         <u><b>Arjun Subramonian</b></u>
-                                        <a class="btn btn-primary btn-outline btn-xs" href="./pdf/7 - Queer _ Inclusive _ Badass.pdf">PDF</a>
                                         <a class="btn btn-primary btn-outline btn-xs" href="https://sites.google.com/view/resistance-ai-neurips-20/accepted-papers-and-media">URL</a>
+                                        <a class="btn btn-primary btn-outline btn-xs" href="./pdf/7 - Queer _ Inclusive _ Badass.pdf">PDF</a>
                                 <div class="pub-publication">Resistance AI @ NeurIPS 2020</div></div>
-                                <div class="col-md-3" style="top:20px">
-                                    <img src="./img/ResistanceAI.jpg" class="pub-banner" itemprop="image" /></div>
-                                <div class="col-md-8" style="top:10px">
-                                    <div class="pub-abstract" itemprop="text">Employing future ML capabilities and ML-generated artifacts as a proxy, my poster presents how the tech community, by 2025, will prioritize the creation of fair, intersectional, and ethical technology.</div>
-                                </div>
-                            </div>
                         </div>
+                    </div>
+                </div>
+        </section>
 
-                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h5 class="article-title" itemprop="name">BLOOM: A 176B-Parameter Open-Access Multilingual Language Model</h5>
-                                    <div class="pub-authors" itemprop="author">
-                                        Teven Le Scao, Angela Fan, Christopher Akiki, ..., <b><u>Arjun Subramonian</u></b>, ..., Yacine Jernite, Younes Belkada, Thomas Wolf
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2211.05100">PDF</a>
-                            </div>
+        <section id="preprints" class="home-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 section-heading">
+                        <h1>Preprints</h1></div>
+                    <div class="col-xs-12">
+                        <hr style="filter:alpha(opacity=100,finishopacity=0,style=2);background-color:#D8D8D8;height:3px" />
+                    </div>
+
+                    <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5 class="article-title" itemprop="name">BLOOM: A 176B-Parameter Open-Access Multilingual Language Model</h5>
+                                <div class="pub-authors" itemprop="author">
+                                    Teven Le Scao, Angela Fan, Christopher Akiki, ..., <b><u>Arjun Subramonian</u></b>, ..., Yacine Jernite, Younes Belkada, Thomas Wolf
+                                    <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2211.05100">arXiv</a>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5 class="article-title" itemprop="name">Fairness and Bias Mitigation: A practical guide into the AllenNLP Fairness module</h5>
+                                <div class="pub-authors" itemprop="author">
+                                    <u><b>Arjun Subramonian</b></u>
+                                    <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/allenai/allennlp/tree/main/allennlp/fairness">GitHub</a>
+                                    <a class="btn btn-primary btn-outline btn-xs" href="https://guide.allennlp.org/fairness">Guide</a>
+                                    <a class="btn btn-primary btn-outline btn-xs" href="http://docs.allennlp.org/main/api/fairness/adversarial_bias_mitigator/">Documentation</a>
+                                    <a class="btn btn-primary btn-outline btn-xs" href="https://medium.com/ai2-blog/an-introduction-to-fairness-and-bias-mitigation-with-allennlp-d1b478d44d4c">Blog Post</a>
+                                </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        
-        <!-- section id="projects_selected" class="home-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-6 section-heading">
-                        <h1>Selected Projects</h1></div>
-                    <div class="col-xs-12">
-                        <hr style="filter:alpha(opacity=100,finishopacity=0,style=2);background-color:#D8D8D8;height:3px" />
 
-                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h5 class="article-title" itemprop="name">Robust Model-Agnostic Meta-Learning for Binary Content Moderation Tasks in Natural Language Processing</h5>
-                                    <div class="pub-authors" itemprop="author">
-                                        <b><u>Arjun Subramonian</u>*</b> and John Dang*
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://docs.google.com/document/d/1Hpeohwat1lO_vhfbXhj8DyM-oSnHfLwY_4dQ0NEpmmk/edit?usp=sharing">PDF</a>
-                                <div class="pub-publication">COM SCI 269 (FATE in NLP)</div></div>
-                                <div class="col-md-3" style="top:20px">
-                                    <img src="./img/roberta.png" class="pub-banner" itemprop="image" /></div>
-                                <div class="col-md-8" style="top:10px">
-                                    <div class="pub-abstract" itemprop="text">We investigated applying Model-Agnostic Meta-Learning (MAML) to boost performance on binary content moderation tasks in low-resource contexts. Using PyTorch, we compared the ability of a model pre-trained with MAML to adapt to unseen binary content moderation tasks to those of a model pre-trained using traditional transfer learning approaches and a model trained from scratch.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h5 class="article-title" itemprop="name">On the Complexity and Convergence of Approximate Policy Iteration Schemes</h5>
-                                    <div class="pub-authors" itemprop="author">
-                                        <b><u>Arjun Subramonian</u>*</b>, Shree Kesava Narayan Prasanna*, Nikil Roashan Selvam*, and Justin Yi*
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://drive.google.com/file/d/1-_jVzOJbdndYlt7gpsdnLqA28hgmdZOs/view">PDF</a>
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://drive.google.com/file/d/1MMqSMY7zz4I6NEzX-41nzv3Pq9vX_Uq6/view?usp=sharing">Poster</a>
-                                <div class="pub-publication">EC ENGR 239AS (Reinforcement Learning)</div></div>
-                                <div class="col-md-3" style="top:20px">
-                                    <img src="./img/API.png" class="pub-banner" itemprop="image" /></div>
-                                <div class="col-md-8" style="top:10px">
-                                    <div class="pub-abstract" itemprop="text">We surveyed relevant literature in approximate policy iteration, and provided theoretical proof sketches involved in the analysis of the complexity bounds, convergence guarantees, and rates of convergence for various approximate policy iteration algorithms.</div></div>
-                            </div>
-                        </div>
-
-                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h5 class="article-title" itemprop="name">Model-Agnostic Meta-Learning for a Policy Gradient Approach to MuJoCo Continuous Control Tasks</h5>
-                                    <div class="pub-authors" itemprop="author">
-                                        <b><u>Arjun Subramonian</u>*</b> and John Dang*
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://drive.google.com/file/d/1HyaoPdtafhoooSuinJ_zACqFaoxWcbI8/view">PDF</a>
-                                <div class="pub-publication">EC ENGR C147 (Neural Networks and Deep Learning)</div></div>
-                                <div class="col-md-3" style="top:20px">
-                                    <img src="./img/mujoco.png" class="pub-banner" itemprop="image" /></div>
-                                <div class="col-md-8" style="top:10px">
-                                    <div class="pub-abstract" itemprop="text">We investigated the adaptive power of Model Agnostic Meta-Learning on a policy gradient approach to MuJoCo continuous control tasks.</div></div>
-                            </div>
-                        </div>
-
-                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h5 class="article-title" itemprop="name">MovieLens Recommender System</h5>
-                                    <div class="pub-authors" itemprop="author">
-                                        <b><u>Arjun Subramonian</u>*</b>, Amit Mondal*, Bryan Chiang*, and John Dang*
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://docs.google.com/document/d/1cFPNT7Mjd-RNybn4RPtDqJGxJJuMIDfm5CHRD63kBMA/edit?usp=sharing">PDF</a>
-                                <div class="pub-publication">COM SCI 145 (Data Mining)</div></div>
-                                <div class="col-md-3" style="top:20px">
-                                    <img src="./img/movielens.png" class="pub-banner" itemprop="image" /></div>
-                                <div class="col-md-8" style="top:10px">
-                                    <div class="pub-abstract" itemprop="text">We created a recommender system to predict the binary rating for 4M unseen UserID-MovieID pairs in the MovieLens dataset. We surveyed the performance of content-based (e.g. TF-IDF, genre-based decision tree, etc.) and collaborativefiltering (e.g. SVM, SVD, element-wise matrix factorization, tabular matrix factorization, hybrid matrix factorization, etc.) methods. <b>We achieved the third highest ROC-AUC on the test set in our data mining class.</b></div></div>
-                            </div>
-
-                            <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h5 class="article-title" itemprop="name">Quantum Programming Algorithms</h5>
-                                    <div class="pub-authors" itemprop="author">
-                                        <b><u>Arjun Subramonian</u></b>, Vaishnavi Tipireddy, and Siddarth Chalasani
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/ArjunSubramonian/Quantum-Algorithms/">Github</a>
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/ArjunSubramonian/Quantum-Algorithms/blob/master/PyQuil/CS%20239%20PyQuil%20Project.pdf">PyQuil</a>
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/ArjunSubramonian/Quantum-Algorithms/blob/master/Qiskit/CS239%20Qiskit%20Project.pdf">Qiskit</a>
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/ArjunSubramonian/Quantum-Algorithms/blob/master/Qiskit-IBMQX/Run%20on%20Quantum%20Computer%20Report.pdf">IBMQX</a>
-                                <div class="pub-publication">COM SCI 239 (Quantum Programming)</div></div>
-                                <div class="col-md-3" style="top:20px">
-                                    <img src="./img/quantum.png" class="pub-banner" itemprop="image" /></div>
-                                <div class="col-md-8" style="top:10px">
-                                    <div class="pub-abstract" itemprop="text">We implemented Deutsch-Jozsa, Bernstein-Vazirani, Grover’s algorithm, and Simon’s algorithm using PyQuil and Qiskit. We then evaluated the implementations and modern quantum compile and runtime capabilities using the Rigetti and IBM quantum simulators and IBMQX quantum devices.</div></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section -->
 
         <section id="honors" class="home-section">
             <div class="container">
@@ -646,25 +473,21 @@
                     <div class="col-xs-12">
                         <hr style="filter:alpha(opacity=100,finishopacity=0,style=2);background-color:#D8D8D8;height:3px" />
                     <ul>
-                      <li><b><a href="https://www.math.ucla.edu/~bertozzi/NRT/index.html">NSF MENTOR '22 Fellowship</a> (2022)</b></li>
-                      <li><b><a href="https://allenai.org/outstanding-interns">AI2 2021 Outstanding Intern of the Year Award</a> (2022)</b> ~ 1 of 3 interns awarded for going above and beyond as a researcher and as a colleague while at AI2, receiving $10,000 and an invitation to return to AI2 for another internship</li>
-                      <li><b><a href="https://top.mlh.io/2021/profiles/arjun-subramonian">MLH Top 50 Class of 2021</a></b> ~ out of 135,000 students who participated in hackathons, story was one of 50 recognized due to projects and impact on other students in community</li>
-                      <li><b><a href="https://samueli.ucla.edu/ucla-samueli-announces-2021-commencement-awards/">UCLA Samueli School-Wide Outstanding Bachelor of Science</a> (2021)</b></li>
-                      <li><b>UCLA Chancellor's Service Award (2021)</b></li>
-                      <li><b>UCLA Samueli Engineering Achievement Award in Student Welfare (2021)</b></li>
-                      <li><b>UCLA Eugene V. Cota-Robles Fellowship (2021)</b> ~ one of most prestigious graduate fellowships awarded by UCLA</li>
-                      <li><b>UCLA Graduate Research Assistantship (2021)</b></li>
-                      <li><b>Boeing Company Scholarship (2021)</b></li>
-                      <li><b>Brian J. Lewis Endowment (2021)</b></li>
-                      <li><b><a href="https://cra.org/about/awards/outstanding-undergraduate-researcher-award/">Computing Research Association Outstanding Undergraduate Researcher Honorable Mention</a> (2020)</b></li>
-                      <li><b><a href="https://aaai.org/Conferences/AAAI-21/undergraduate-consortium-program/">AAAI Undergraduate Consortium</a> (2020)</b> ~ presenting at AAAI Undergraduate Research Symposium and receiving mentorship from leading researchers in AI; 1 of 14 accepted out of 82 applicants for inspiring personal statement and exemplary service and research in self-supervised methods for learning graph-level representations</li>
-                      <li><b>IBM Quantum Challenge (2020)</b> ~ decomposed a large unitary gate for a minimal gate set with Qiskit; 1 of 574 winners out of 1745 participants</li>
-                      <li><b>Out for Undergrad Tech Conference (2020)</b> ~ 1 of 300 applicants accepted for superb academics, exemplary leadership, and work experiences, as well as diverse and unique viewpoints</li>
-                      <li><b>Google Queer Tech Voices Conference (2020)</b> ~ 1 of 32 accepted out of hundreds of applicants</li>
-                      <li><b>3rd Place Award for Best Hack @ Rose Hack, Major League Hacking (2019)</b> ~ developed application that produces mashups of songs and evaluates which two songs form the best mashup</li>
-                      <li><b>Siemens Competition Regional Finalist (2017)</b> ~ 1 of 101 finalists selected from 4092 entrants</li>
-                      <li><b>Award of Achievement, Association for Computing Machinery, San Francisco Bay Area Professional Chapter (2016)</b> ~ developed automated digital music transposer</li>
-                      <li><b>Dean's Honors List (2018-2021)</b></li>
+                      <li><a href="https://www.math.ucla.edu/~bertozzi/NRT/index.html">NSF MENTOR Fellowship</a> (2022)</li>
+                      <li><a href="https://allenai.org/outstanding-interns">AI2 Outstanding Intern of the Year</a> (2022)</li>
+                      <li><a href="https://top.mlh.io/2021/profiles/arjun-subramonian">MLH Top 50</a> (2021)</li>
+                      <li><a href="https://samueli.ucla.edu/ucla-samueli-announces-2021-commencement-awards/">UCLA Samueli School-Wide Outstanding Bachelor of Science</a> (2021)</li>
+                      <li>UCLA Chancellor's Service Award (2021)</li>
+                      <li>UCLA Samueli Engineering Achievement Award in Student Welfare (2021)</li>
+                      <li>UCLA Eugene V. Cota-Robles Fellowship (2021)</li>
+                      <li>Boeing Company Scholarship (2021)</li>
+                      <li>Brian J. Lewis Endowment (2021)</li>
+                      <li>UCLA Dean's Honors List (2018-2021)</li>
+                      <li><a href="https://cra.org/about/awards/outstanding-undergraduate-researcher-award/">Computing Research Association Outstanding Undergraduate Researcher Honorable Mention</a> (2020)</li>
+                      <li>IBM Quantum Challenge (2020)</li>
+                      <li>3rd Place Award for Best Hack @ Rose Hack, Major League Hacking (2019)</li>
+                      <li>Siemens Competition Regional Finalist (2017)</li>
+                      <li>Award of Achievement, Association for Computing Machinery, San Francisco Bay Area Professional Chapter (2016)</li>
                     </ul>
                   </div>
                 </div>
@@ -675,47 +498,44 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-6 section-heading">
-                        <h1>Invited Talks and Panels</h1></div>
+                        <h1>Invited Talks</h1></div>
                     <div class="col-xs-12">
                         <hr style="filter:alpha(opacity=100,finishopacity=0,style=2);background-color:#D8D8D8;height:3px" />
                     <ul>
                       <li><a href="./pdf/NLP_Bias_Power_USC_ISI.pdf">Bias and Power in NLP</a>, <a href="https://www.isi.edu/events/3193/bias-and-power-in-nlp/">USC ISI</a> <a href="https://www.youtube.com/watch?v=U2UUYyQrREA">Natural Language Seminar</a> (2023)</li>
-                      <li><a href="./pdf/NLP_Bias_Simplified.pdf">Bias and Power in NLP (for future consultants)</a>, Paris (2022)</li>
+                      <li><a href="./pdf/NLP_Bias_Simplified.pdf">Bias and Power in NLP (for consultants)</a>, Paris (2022)</li>
                       <li><a href="./pdf/NLP_Bias_Power.pdf">Bias and Power in NLP</a>, NLP Seminars at Dublin College University, Ireland (2022)</li>
-                      <li>Students with Disabilities Panel, UCLA (2022)</li>
-                      <li><a href="https://www.crowdcast.io/e/neuromatch-academy-2022-/19">Accessibility and Inclusion Panel</a>, <a href="https://academy.neuromatch.io/">Neuromatch Academy</a> (2022)</li>
-                      <li><a href="https://www.youtube.com/watch?v=ffQ7UjdnSIg&list=PLdSIz7xU0W6QIIVfh19-7Wy0P0mFcnZM2&index=4&ab_channel=QueerInAI">"Gender as a Variable in NLP" Panel</a>, <a href="https://www.queerinai.com/naacl-2022">NAACL 2022 Queer in AI Workshop</a></li>
-                      <li><a href="https://docs.google.com/presentation/d/1PgCyWh2qAv4ssPJEG20AUnGAv6vKVmdGkyXtuhbhdkU/edit?usp=sharing">Prioritizing Grassroots D&I Activism: Queer in AI</a>, Microsoft Research Montréal Diversity, Inclusion, Belonging Meeting (2022)
                       <li><a href="./pdf/NLP_Bias.pdf">Guest Lecture: Bias in Natural Language Processing</a>, <a href="https://youtu.be/okU4meBeATo">COM SCI 263: NLP</a>, UCLA (2022)</li>
-                      <li>UPE Graduate School Panel, UCLA (2022)</li>
-                      <li><a href="https://ipk.nyu.edu/events/co-opting-ai-queer/">Co-Opting AI: Queer</a>, NYU's Institute for Public Knowledge (2022)</li>
                       <li><a href="https://docs.google.com/presentation/d/1m1a23sUYl9Hc9UhTQULHMfnMR109HNjJ2t729WJi6ec/edit?usp=sharing">Queer in AI: Making AI Queer-Inclusive and Prioritizing Grassroots D&I Activism</a>, <a href="https://play.umu.se/playlist/dedicated/105250/0_qwbiscsy/0_lqdnclpb">Humlab, Umeå University</a> (2022)</li>
-                      <li><a href="https://docs.google.com/presentation/d/1-TJgRi6wsIG0vbEnjpzUX0xZk4FaMQYOUskZYd698NE/edit?usp=sharing">Prioritizing Grassroots D&I Activism: Queer in AI</a>, <a href="https://kdd.cs.ksu.edu/Workshops/AAAI-2022/">AAAI 2022 Workshop on Diversity in Artificial Intelligence</a></li>
-                      <li><a href="https://docs.google.com/presentation/d/1333ZLN7guJb09SXKLJt8w6IUQKLjfuU-vdcHNLjv1Xc/edit?usp=sharing">Prioritizing Grassroots D&I Activism: Queer in AI</a> and "How Do We Improve DEI in AI?" Panel, <a href="https://sportai.splashthat.com/">Nike Sport+AI Conference 2022</a></li>
-                      <li><a href="https://docs.google.com/presentation/d/1VV7oIIGBev7gEWrZVVPLntyryYfRRCk5fhN6wsXVheU/edit?usp=sharing">Rebuilding Trust: Making Artificial Intelligence Queer-Inclusive</a>, QWER Hacks 2022</li>
-                      <li><a href="https://www.crowdcast.io/e/tpl_aiequityinclusion/register">Eye on A.I.: Equity & Inclusion in A.I. Technology</a>, Toronto Public Library (2021)</li>
-                      <li>ACM AI at UCLA Research Panel, UCLA (2021)</li>
-                      <li><a href="https://underline.io/lecture/38661-harms-of-gender-exclusivity-and-challenges-in-non-binary-representation-in-language-technologies">Harms of Gender Exclusivity and Challenges in Non-Binary Representation in Language Technologies</a>, EMNLP 2021</li>
-                      <li>Safer Privacy-Preserving Friend Suggestions, Snap, Inc. (2021)</li>
-                      <li><a href="https://docs.google.com/presentation/d/1LhjMYo0g3qtT1CJxbZyxozZ10ueJzPHJ1NKGfIRnHO4/edit?usp=sharing">Machine Learning Justice</a>, Catalysts for Change (2021)</li>
+                      <li><a href="https://docs.google.com/presentation/d/1-TJgRi6wsIG0vbEnjpzUX0xZk4FaMQYOUskZYd698NE/edit?usp=sharing">Prioritizing Grassroots D&I Activism: Queer in AI</a>, <a href="https://kdd.cs.ksu.edu/Workshops/AAAI-2022/">AAAI Workshop on Diversity in Artificial Intelligence</a> (2022)</li>
+                      <li><a href="https://docs.google.com/presentation/d/1333ZLN7guJb09SXKLJt8w6IUQKLjfuU-vdcHNLjv1Xc/edit?usp=sharing">Prioritizing Grassroots D&I Activism: Queer in AI</a>, <a href="https://sportai.splashthat.com/">Nike Sport+AI Conference</a> (2022)</li>
                       <li>How Can I Make My Hackathon Queer-Inclusive? (<a href="https://docs.google.com/presentation/d/1OhisnuW2vd_6komajE7pHBXigZp_Ce0Y7cDrDHmyuuA/edit?usp=sharing">Slides</a>, <a href="https://youtu.be/4eG7nZV4gSE?t=5025">Video</a>), Hackcon IX (2021)</li>
-                      <li><a href="https://www.youtube.com/watch?v=S2EO5DXcq40">Intersectionality Panel</a>, NAACL 2021</li>
-                      <li><a href="https://docs.google.com/presentation/d/1v2wq4_C74NFeP5SUAxbeBh2hugHv7PXFZG-7yMax4Xo/edit?usp=sharing">Queer in AI Inclusive Conference Guide DEI Update</a>, Allen Institute for Artificial Intelligence (2021)</li>
-                      <!-- li><a href="https://docs.google.com/presentation/d/1he-gXz9H005wt_dsE-mh5fYy_koK1b_hBMYnAj3yLMM/edit?usp=sharing">Exploring Text Specific and Blackbox Fairness Algorithms in Multimodal Clinical NLP</a> at UCLA-NLP (2021)</li -->
-                      <!-- li><a href="https://www.youtube.com/watch?v=57DGgbK0Afw">On Dyadic Fairness: Exploring and Mitigating Bias in Graph Connections</a>, UCLA Scalable Analytics Institute (2021)</li -->
-                      <li><a href="https://www.youtube.com/watch?v=DojYMweD114&ab_channel=ACMatUCLA">Queer in AI Panel</a> at UCLA (2021)</li>
-                      <!-- li>MOTIF-Driven Contrastive Learning of Graph Representations, Undergraduate Consortium @ AAAI 2021 (2021) </li -->
-                      <!-- li>Introduction to Probabilistic Graphical Models, UCLA Scalable Analytics Institute (2021)</li -->
-                      <!-- li>Queer | Inclusive | Badass, Resistance AI Workshop @ NeurIPS 2020 (2020)</li -->
-                      <!-- li><a href="https://www.overleaf.com/read/nnmhwtppckth">Spectral Graph Sparsification</a> (adapted from Spielman Ch. 32, Teng Ch. 6), UCLA Scalable Analytics Institute (2020)</li -->
-                      <li><a href="https://drive.google.com/file/d/16hHbm2dyNx-Okb7jAg2Wjx4XwLyYE2XM/view?usp=sharing">Fair Machine Learning</a> (adapted from Barocas and Hardt's 2017 NeurIPS talk), Microsoft Garage Brown-Bag (2020)</li>
-                      <!-- li>"<a href="https://drive.google.com/file/d/1HGHthMgLvBjjYjHvxrOeoyS6Ir_yapMu/view?usp=sharing">MONET</a>: Debiasing Graph Embeddings via the Metadata-Orthogonal Training Unit", Microsoft Research Cambridge Paper Reading Group (2020)</li -->
                       <li><a href="https://drive.google.com/file/d/1WR0mhFkQ4tYJYh1uQSOD2EZlI1KeEg-G/view?usp=sharing">An Automated and Cost-Effective System for Early Antimicrobial Susceptibility Testing Using Optical Fibers and Deep Learning</a>, UCLA HHMI Day 2019 (2019)</li>
                     </ul>
                   </div>
                 </div>
               </div>
             </section>
+
+            <section id="talks" class="home-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 section-heading">
+                            <h1>Invited Panels</h1></div>
+                        <div class="col-xs-12">
+                            <hr style="filter:alpha(opacity=100,finishopacity=0,style=2);background-color:#D8D8D8;height:3px" />
+                        <ul>
+                          <li><a href="https://www.crowdcast.io/e/neuromatch-academy-2022-/19">Accessibility and Inclusion Panel</a>, <a href="https://academy.neuromatch.io/">Neuromatch Academy</a> (2022)</li>
+                          <li><a href="https://www.youtube.com/watch?v=ffQ7UjdnSIg&list=PLdSIz7xU0W6QIIVfh19-7Wy0P0mFcnZM2&index=4&ab_channel=QueerInAI">Gender as a Variable in NLP</a>, <a href="https://www.queerinai.com/naacl-2022">NAACL Queer in AI Workshop</a> (2022)</li>
+                          <li><a href="https://ipk.nyu.edu/events/co-opting-ai-queer/">Co-Opting AI: Queer</a>, NYU's Institute for Public Knowledge (2022)</li>
+                          <li>How Do We Improve DEI in AI?, <a href="https://sportai.splashthat.com/">Nike Sport+AI Conference 2022</a></li>
+                          <li><a href="https://www.crowdcast.io/e/tpl_aiequityinclusion/register">Eye on A.I.: Equity & Inclusion in A.I. Technology</a>, Toronto Public Library (2021)</li>
+                          <li><a href="https://www.youtube.com/watch?v=S2EO5DXcq40">Intersectionality Panel</a>, NAACL (2021)</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </section>
 
         <section id="press" class="home-section">
             <div class="container">
@@ -725,24 +545,24 @@
                     <div class="col-xs-12">
                         <hr style="filter:alpha(opacity=100,finishopacity=0,style=2);background-color:#D8D8D8;height:3px" />
                     <ul>
-                      <li>Arjun Subramonian on Queer Approaches to AI and Computing (<a href="https://www.thegoodrobot.co.uk/podcast/episode/771e07e0/arjun-subramonian-on-queer-approaches-to-ai-and-computing">The Good Robot</a>, 2023)</li>
-                      <li>Trans Researchers Want Google Scholar to Stop Deadnaming Them (<a href="https://www.wired.com/story/trans-researchers-want-google-scholar-to-stop-deadnaming-them/">WIRED</a>, 2022)</li>
-                      <li>Taking The TamBram Out of Pride Month (<a href="https://gaysifamily.com/lifestyle/taking-the-tambram-out-of-pride-month/">gaysi</a>, 2022)</li>
-                      <li>Asian-Americans, we must resign from our role as Silicon Valley's model minority mascot (<a href="https://dl.acm.org/doi/10.1145/3538544">XRDS: Crossroads, The ACM Magazine for Students, Volume 28, Issue 4</a>, 2022)</li>
-                      <li>.Tech Domains x Major League Hacking: 24 Student Programmers Share Their #MyStartInTech Stories (<a href="https://get.tech/blog/mlh-my-start-in-tech/">.Tech Domains</a>, 2021)</li>
-                      <li>UCLA Engineering Outstanding Bachelor Awardee Champions Equity for LGBTQ+ Community (<a href="https://samueli.ucla.edu/ucla-engineering-outstanding-bachelor-awardee-champions-equity-for-lgbtq-community/">UCLA Samueli Newsroom</a>, 2021)</li>
-                      <li>Queer in AI with Arjun Subramonian (<a href="https://thereader.500queerscientists.com/queer-in-ai-with/">500 Queer Scientists</a>, 2021)</li>
-                      <li>UCLA Samueli Announces 2021 Commencement Awards (<a href="https://samueli.ucla.edu/ucla-samueli-announces-2021-commencement-awards/">UCLA Samueli Newsroom</a>, 2021)</li>
-                      <li>QWER Hacks: A Case Study on How to Build an Inclusive Hackathon (<a href="https://samueli.ucla.edu/qwer-hacks-a-case-study-on-how-to-build-an-inclusive-hackathon/">UCLA Samueli Newsroom</a>, 2021)</li>
-                      <li>UCLA's ACM AI Podcast Addresses AI and Diversity, Featuring Guests from Underrepresented Communities (<a href="https://samueli.ucla.edu/uclas-acm-ai-podcast-addresses-ai-and-diversity-featuring-guests-from-underrepresented-communities/">UCLA Samueli Newsroom</a>, 2021)</li>
-                      <li>Student-run tech podcast aims to make computer science more diverse, accessible (<a href="https://dailybruin.com/2021/01/27/student-run-tech-podcast-aims-to-make-computer-science-more-diverse-accessible">Daily Bruin</a>, 2021)</li>
-                      <li>ACM AI at UCLA, Outreach + Events Feature (<a href="https://sh1.sendinblue.com/vdnd1plbpt7e.html?t=1602536427">A.I. For Anyone</a>, 2020)</li>
-                      <li>Students code software to help underrepresented groups in LGTBQ+ hackathon (<a href="https://dailybruin.com/2020/01/27/students-code-software-to-help-underrepresented-groups-in-lgtbq-hackathon">Daily Bruin</a>, 2020)</li>
-                      <li>Equality in America Town Hall with Tom Steyer (<a href="https://www.cnn.com/videos/politics/2019/10/11/tom-steyer-lgbtq-rights-cnn-town-hall-vpx.cnn">CNN</a>, 2019)</li>
-                      <li>Washington, California Students Win Regional Siemens Competition at California Institute of Technology (<a href="https://citybizlist.com/article/452259/washington-california-students-win-regional-siemens-competition-at-california-institute-of-technology">citybizlist</a>, 2017)</li>
-                      <li>Indian American STEM Whiz Kids Named 2017 Siemens Regional Finalists (<a href="https://www.indiawest.com/news/global_indian/indian-american-stem-whiz-kids-named-2017-siemens-regional-finalists/article_75ed7a08-b8f5-11e7-9fa1-4bab05f3c3d3.html">IndiaWest</a>, 2017)</li>
-                      <li>Three MVHS students make it to semifinal round of Siemens competition (<a href="https://elestoque.org/2017/11/01/news/mvhs-students-semifinal-siemens-competition/">El Estoque</a>, 2017)</li>
-                      <li>Local Charity Map of Bay Area (<a href="https://www.arcgis.com/apps/MapJournal/index.html?appid=485756b0b7cd4a1f86e2ce5288cd9e8a#">ArcGIS</a>, 2016)</li>
+                      <li>Seven Ways to Put Intersectionality into Your Research, <a href="https://www.queerinai.com/blog/seven-ways-to-interscetionality">Queer in AI Blog</a> (2023)</li>
+                      <li>Ethics in AI Wonderland, <a href="https://www.queerinai.com/blog/ethics-in-ai-wonderland">Queer in AI Blog</a> (2023)</li>
+                      <li>Arjun Subramonian on Queer Approaches to AI and Computing, <a href="https://www.thegoodrobot.co.uk/podcast/episode/771e07e0/arjun-subramonian-on-queer-approaches-to-ai-and-computing">The Good Robot</a> (2023)</li>
+                      <li>Trans Researchers Want Google Scholar to Stop Deadnaming Them, <a href="https://www.wired.com/story/trans-researchers-want-google-scholar-to-stop-deadnaming-them/">WIRED</a> (2022)</li>
+                      <li>Taking The TamBram Out of Pride Month, <a href="https://gaysifamily.com/lifestyle/taking-the-tambram-out-of-pride-month/">gaysi</a> (2022)</li>
+                      <li>Asian-Americans, we must resign from our role as Silicon Valley's model minority mascot, <a href="https://dl.acm.org/doi/10.1145/3538544">XRDS: Crossroads, The ACM Magazine for Students, Volume 28, Issue 4</a> (2022)</li>
+                      <li>.Tech Domains x Major League Hacking: 24 Student Programmers Share Their #MyStartInTech Stories, <a href="https://get.tech/blog/mlh-my-start-in-tech/">.Tech Domains</a> (2021)</li>
+                      <li>UCLA Engineering Outstanding Bachelor Awardee Champions Equity for LGBTQ+ Community, <a href="https://samueli.ucla.edu/ucla-engineering-outstanding-bachelor-awardee-champions-equity-for-lgbtq-community/">UCLA Samueli Newsroom</a> (2021)</li>
+                      <li>Queer in AI with Arjun Subramonian, <a href="https://thereader.500queerscientists.com/queer-in-ai-with/">500 Queer Scientists</a> (2021)</li>
+                      <li>UCLA Samueli Announces 2021 Commencement Awards, <a href="https://samueli.ucla.edu/ucla-samueli-announces-2021-commencement-awards/">UCLA Samueli Newsroom</a> (2021)</li>
+                      <li>QWER Hacks: A Case Study on How to Build an Inclusive Hackathon, <a href="https://samueli.ucla.edu/qwer-hacks-a-case-study-on-how-to-build-an-inclusive-hackathon/">UCLA Samueli Newsroom</a> (2021)</li>
+                      <li>UCLA's ACM AI Podcast Addresses AI and Diversity, Featuring Guests from Underrepresented Communities, <a href="https://samueli.ucla.edu/uclas-acm-ai-podcast-addresses-ai-and-diversity-featuring-guests-from-underrepresented-communities/">UCLA Samueli Newsroom</a> (2021)</li>
+                      <li>Student-run tech podcast aims to make computer science more diverse, accessible, <a href="https://dailybruin.com/2021/01/27/student-run-tech-podcast-aims-to-make-computer-science-more-diverse-accessible">Daily Bruin</a> (2021)</li>
+                      <li>Students code software to help underrepresented groups in LGTBQ+ hackathon, <a href="https://dailybruin.com/2020/01/27/students-code-software-to-help-underrepresented-groups-in-lgtbq-hackathon">Daily Bruin</a> (2020)</li>
+                      <li>Equality in America Town Hall with Tom Steyer, <a href="https://www.cnn.com/videos/politics/2019/10/11/tom-steyer-lgbtq-rights-cnn-town-hall-vpx.cnn">CNN</a> (2019)</li>
+                      <li>Washington, California Students Win Regional Siemens Competition at California Institute of Technology, <a href="https://citybizlist.com/article/452259/washington-california-students-win-regional-siemens-competition-at-california-institute-of-technology">citybizlist</a> (2017)</li>
+                      <li>Indian American STEM Whiz Kids Named 2017 Siemens Regional Finalists, <a href="https://www.indiawest.com/news/global_indian/indian-american-stem-whiz-kids-named-2017-siemens-regional-finalists/article_75ed7a08-b8f5-11e7-9fa1-4bab05f3c3d3.html">IndiaWest</a> (2017)</li>
+                      <li>Three MVHS students make it to semifinal round of Siemens competition, <a href="https://elestoque.org/2017/11/01/news/mvhs-students-semifinal-siemens-competition/">El Estoque</a> (2017)</li>
                     </ul>
                   </div>
                 </div>
@@ -758,41 +578,73 @@
                         <hr style="filter:alpha(opacity=100,finishopacity=0,style=2);background-color:#D8D8D8;height:3px" />
                     <div>
                       <p>
-                        <li><b>(2023)</b> I am a teaching assistant for <a href="http://web.cs.ucla.edu/classes/winter23/cs32/">Computer Science 32</a> at UCLA, which covers object-oriented programming, data structures, and algorithms.</li>
+                        <li><b>Reviewing:</b>
+                            <ul>
+                                <li><b>Conferences:</b> <a href="https://neurips.cc/Conferences/2023">NeurIPS 2023</a>, <a href="https://kdd.org/kdd2023/">KDD 2023</a>, <a href="https://facctconference.org/2023/">FAccT 2023</a>, <a href="http://log2022.logconference.org/">LoG 2022</a>, <a href="https://facctconference.org/2022/">FAccT 2022</a></li>
+                                <li><b>Workshops:</b> <a href="https://trustnlpworkshop.github.io/">TrustNLP @ ACL 2023</a>, <a href="https://glfrontiers.github.io/">GLFrontiers @ NeurIPS 2022</a>, <a href="https://tsrml2022.github.io/">TSRML @ NeurIPS 2022</a>, <a href="https://trustnlpworkshop.github.io/">TrustNLP @ NAACL 2022</a>, <a href="https://naacl2022-srw.github.io/">SRW @ NAACL 2022</a>, <a href="https://www.workshopononlineabuse.com/">WOAH @ NAACL 2022</a>, <a href="https://bigscience.huggingface.co/acl-2022">BigScience @ ACL 2022</a></li>
+                            </ul></li>
+                          <br>
+                        <li><b>Teaching:</b>
+                            <ul>
+                                <li><b>UCLA:</b> <a href="http://web.cs.ucla.edu/classes/winter23/cs32/">Computer Science 32</a> (2023), <a href="https://www.summer.ucla.edu/institutes/computerscience">UCLA Computer Science Summer Institute</a> (2022, 2023)</li>
+                                <li><b>North Hollywood High School:</b> <a href="https://teachla.uclaacm.com/classes/ml">machine learning</a></li>
+                                <li><b>Misc:</b> <a href="https://docs.google.com/presentation/d/115SK-Zq85gKzybhmSl_9CVQle1713rb_BjAQGCVwA0s/edit?usp=sharing">guide</a> on gender and pronouns for instructors</li>
+                            </ul></li>
                         <br>
-                          <li><b>(2022-Present)</b> I was a reviewer for: <a href="https://kdd.org/kdd2023/">KDD 2023</a>, <a href="https://facctconference.org/2023/">FAccT 2023</a>, <a href="https://logconference.org/">LoG 2022</a>, <a href="https://facctconference.org/2022/">FAccT 2022</a>, <a href="https://glfrontiers.github.io/">GLFrontiers @ NeurIPS 2022</a>, <a href="https://tsrml2022.github.io/">TSRML @ NeurIPS 2022</a>, <a href="https://trustnlpworkshop.github.io/">TrustNLP @ NAACL 2022</a>, <a href="https://bigscience.huggingface.co/acl-2022">Challenges & Perspectives in Creating Large Language Models @ ACL 2022</a>, <a href="https://naacl2022-srw.github.io/">NAACL Student Research Workshop (SRW) 2022</a>, <a href="https://www.workshopononlineabuse.com/">Workshop on Online Abuse and Harms @ NAACL 2022</a></li>.
-                          <br>
-                          <li><b>(2022)</b> I am serving as an <a href="https://blog.neurips.cc/2022/08/23/announcing-the-neurips-2022-affinity-workshops/">Affinity Workshops</a> <a href="https://neurips.cc/Conferences/2022/CallForAffinityWorkshopsAndSocials">Chair</a> for <b><a href="https://neurips.cc/Conferences/2022">NeurIPS 2022</a></b>.</li>
-                          <br>
-                          <li><b>(2021-Present)</b> I am a core organizer with <b><a href="https://www.queerinai.com/">Queer in AI</a></b>, hosting workshops and socials (<a href="https://sites.google.com/view/queer-in-ai/aaai-2021">AAAI 2021</a>, <a href="https://sites.google.com/view/queer-in-ai/icml-2021">ICML 2021</a>, <a href="https://sites.google.com/view/queer-in-ai/neurips-2021">NeurIPS 2021</a>, <a href="https://www.queerinai.com/facct-2022">FAccT 2022</a>, <a href="https://www.queerinai.com/naacl-2022">NAACL 2022</a>, <a href="https://www.queerinai.com/icml-2022">ICML 2022</a>) at AI conferences to build a strong community of queer and trans researchers. Furthermore, I organized the <a href="https://www.queerinai.com/undergraduate-programs">undergraduate mentoring program</a>, which gets junior queer and trans folks involved with AI research and aids them in <a href="https://www.queerinai.com/grad-app-aid">applying to graduate school</a>. Additionally, I advise AI conferences on <a href="https://www.queerinai.com/how-to-make-virtual-conferences-queer-friendly">diversity and inclusion and accessibility issues</a>, and I help shape <a href="https://queerinai.com/risk-management">AI policy</a> as it concerns queer and trans communities. Misc: <a href="https://docs.google.com/presentation/d/115SK-Zq85gKzybhmSl_9CVQle1713rb_BjAQGCVwA0s/edit?usp=sharing">guide</a> on gender and pronouns for instructors, <a href="https://docs.google.com/presentation/d/1W29Wr6HkUuzD2jtdHThKQ2hZZne05rjMCEfTqhCpGlQ/edit?usp=sharing">stats</a> from Queer in AI's graduate application financial aid program.</li>
-                          <br>
-                          <li><b>(2021-2022)</b> I am serving as an Accessibility Chair on <b><a href="https://2022.naacl.org/organization/#diversity-and-inclusion-chairs">NAACL 2022's Diversity and Inclusion committee</a></b>, ensuring in-person and digital accessibility for the conference. I authored guidelines on: <a href="https://2022.naacl.org/blog/publication-accessibility-quality-inclusivity/">Publication Accessibility, Quality, and Inclusivity</a>, <a href="https://2022.naacl.org/blog/poster-talk-accessibility-quality-inclusivity/">Poster and Talk Accessibility, Quality, and Inclusivity</a>.</li>
-                          <br>
-                          <li><b>(2021-Present)</b> I serve on the <b><a href="https://samueli.ucla.edu/equity-diversity-and-inclusion/">UCLA Samueli Standing Committee on Diversity</a></b>, on behalf of Queer and Trans in STEM. I am working towards dropping the GRE requirement and eliminating application fees for graduate school admissions.</li>
-                          <br>
-                          <li><b>(2021)</b> I reviewed scholarship applications for UCLA Engineering.</li>
-                          <br>
-                          <li><b>(2021)</b> I helped organize <b><a href="https://allennlp-hackathon.apps.allenai.org/">AllenNLP Hacks</a></b>, a hackathon to connect with marginalized students, welcome them into AllenNLP's open-source community, bring their perspectives to AllenNLP's research, and encourage them to apply to intern and work with <a href="https://allennlp.org/">AllenNLP</a>. </li>
-                          <br>
-                          <li><b>(2021-2022)</b> As an organizer of the <b><a href="https://www.summer.ucla.edu/institutes/computerscience">UCLA Computer Science Summer Institute (CSSI)</a></b>, I have interviewed and recruited a diverse group of Undergraduate Learning Assistants to lead interactive coding and problem-solving sessions with the high school students.</li>
-                          <br>
-                          <li><b>(2020-2021)</b> I led <a href="https://medium.com/acm-at-ucla/may-the-force-be-with-acm-at-ucla-49e9258d71e1"><b>JEDI initiatives</b></a> within ACM at UCLA, employing actionable goalsetting and reflection to take concrete steps towards making the organization more inclusive of everyone.</li>
-                          <br>
-                          <li><b>(2019-2021)</b> I co-founded <a href="https://www.qwerhacks.com"><b>QWER Hacks</b></a>, Major League Hacking's <a href="https://news.mlh.io/welcome-to-the-2021-hackathon-season!-07-01-2020">first-ever LGBTQIA+ event</a> and the first collegiate LGBTQIA+ hackathon in the nation, which increases the visibility of and celebrates the queer and trans community in STEM.</li>
+                        <li><b>Conference organization:</b>
+                            <ul>
+                                <li>NeurIPS Affinity Workshops Chair (<a href="https://neurips.cc/Conferences/2022/Committees">2022</a>, <a href="https://neurips.cc/Conferences/2023/Committees">2023</a>)</li>
+                                <li><a href="https://kdd.org/kdd2023/equity-diversity-inclusion-edi-day/">KDD EDI Day Chair</a> (2023)</li>
+                                <li><a href="https://2022.naacl.org/organization/#diversity-and-inclusion-chairs">NAACL Accessibility Chair</a> (2022)</li>
+                            </ul>
                         <br>
-                        <li><b>(2019-2021)</b> I advocate to make an AI education accessible to everyone. With the prevalence of AI in modern society and the harms it poses to marginalized communities, it is paramount that we empower individuals from these communities to have conversations about AI and fight against algorithmic injustices. As <a href="https://uclaacmai.github.io/outreach/">Outreach Director of ACM AI at UCLA</a>, I created, led, and taught <a href="https://teachla.uclaacm.com/classes/ml">machine learning</a> and <a href="https://teachla.uclaacm.com/ai-ethics">AI ethics</a> classes at Title I schools in LA, through in-person visits, virtual sessions, and educational technology (e.g. <a href="https://uclaacm.github.io/getting-mean-about-error/">mean-squared error</a>, <a href="https://nofilter.uclaacm.com/">convolutional filters</a>, <a href="https://bias-by-us.netlify.app/">biases in machine learning</a>, etc.)</li>
-                        <br>
-                        <li><b>(2020)</b> I created and produced the  <a href="https://anchor.fm/ucla-acm-ai"><b>"You Belong in AI!"</b></a> podcast, which inspires youth and college students of all identities and backgrounds, especially those who are marginalized, to pursue AI opportunities.</li> 
+                        <li><b>Workshop organization:</b>
+                            <ul>
+                                <li>Queer in AI: <a href="https://sites.google.com/view/queer-in-ai/aaai-2021">AAAI 2021</a>, <a href="https://sites.google.com/view/queer-in-ai/icml-2021">ICML 2021</a>, <a href="https://sites.google.com/view/queer-in-ai/neurips-2021">NeurIPS 2021</a>, <a href="https://www.queerinai.com/naacl-2022">NAACL 2022</a>, <a href="https://www.queerinai.com/icml-2022">ICML 2022</a></li>
+                                <li><a href="https://www.queerinai.com/facct-2022">Collaboratively Developing Evaluation Frameworks for Queer AI Harms</a> (FAccT 2022)</li>
+                            </ul>
+                          <br>
+                          <li><b>EDI:</b>
+                            <ul>
+                                <li><a href="https://www.queerinai.com">Queer in AI core organizer</a></li> 
+                                <li>Guides on <a href="https://2022.naacl.org/blog/publication-accessibility-quality-inclusivity/">Publication Accessibility, Quality, and Inclusivity</a> and <a href="https://2022.naacl.org/blog/poster-talk-accessibility-quality-inclusivity/">Poster and Talk Accessibility, Quality, and Inclusivity</a></li>
+                                <li><a href="https://samueli.ucla.edu/equity-diversity-and-inclusion/">UCLA Samueli Standing Committee on Diversity member</a></li>
+                                <li><a href="https://allennlp-hackathon.apps.allenai.org/">AllenNLP Hacks organizer</a></li>
+                                <li><a href="https://www.qwerhacks.com">QWER Hacks co-founder and organizer</a></li>
+                                <li><a href="https://uclaacmai.github.io/outreach/">ACM at UCLA EDI director</a></li>
+                                <li><a href="https://uclaacmai.github.io/outreach/">ACM AI at UCLA outreach director</a></li>
+                                <li><a href="https://anchor.fm/ucla-acm-ai">"You Belong in AI!"</a> podcast creator and producer</li>
+                            </ul>
+                          <br>
                     </p>
                     </div>
                 </div>
               </div>
             </div>
         </section>
+
+        <section id="mentoring" class="home-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 section-heading">
+                        <h1>Mentoring</h1></div>
+                    <div class="col-xs-12">
+                        <hr style="filter:alpha(opacity=100,finishopacity=0,style=2);background-color:#D8D8D8;height:3px" />
+                    <div>
+                      <p> I am fortunate to mentor brilliant students:
+                        <li>Margaret Capetz</li>
+                        <li>Naisha Agarwal</li>
+                        </p>
+                        <br>
+                    </div>
+                </div>
+              </div>
+          </section>
+
         <br />
         <footer class="site-footer">
             <div class="container">
-                <p class="powered-by">&copy; 2022 Arjun Subramonian &middot; Modeled after
+                <p class="powered-by">&copy; 2023 Arjun Subramonian &middot; Modeled after
                     <a href="https://acbull.github.io/">Ziniu Hu's website</a> with permission &middot; Powered by the
                     <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic theme</a> for
                     <a href="http://gohugo.io" target="_blank">Hugo</a>.
